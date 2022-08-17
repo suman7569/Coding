@@ -1,0 +1,8 @@
+git config --global user.email "sumankumar7569@gmail.com"
+git config --global user.name "suman7569"
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/suman7569/All_pdf.git
+git push -u origin main
