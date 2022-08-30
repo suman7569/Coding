@@ -1,0 +1,7063 @@
+import java.util.*;
+import java.io.*;
+public class Level_1 {
+    public static void main(String[] args)  {
+        int[] arr = { 19, 13, 12, 27, 4, 6, 1 };
+        // isprime_approch_1(arr);
+        // isprime_approch_2(arr);
+        // All_Prime();
+        // int n=5;
+        // Fibo_Approch_1(n);
+        // for(int i=0;i<n;i++){
+        // System.out.println("v "+Fibo_Approch_2(i));
+        // }
+        // Count_Digit(12345);
+        // Print_Digit(1234500);
+        // Reverse_Number(12345);
+        // Invere_Number(21453);
+        // Rotate_Number(12345,6);
+        // GCD_LCM();
+        // prime_factorization(13);
+        // Pythogoron_triplet(5,3,4);
+        // Benjamin_bulb();
+        // Pattern_1(5);
+        // Pattern_2(5);
+        // Pattern_3(5);
+        // Pattern_4(5);
+        // Pattern_5(5);
+        // Pattern_6(5);
+        // Pattern_7(5);
+        // Pattern_8(5);
+        // Pattern_9(5);
+        // Pattern_10(5);
+        // Pattern_11(5);
+        // Pattern_12(5);
+        // Pattern_13(5);
+        // Pattern_14(5);
+        // Pattern_15(5);
+        // Digit_Frequency(1234533,5);
+        // Decimal_To_Any_Base(634, 8);
+        // Any_Base_To_Decimal(1111, 2);
+        // Any_Base_To_Any_Base();
+        // Any_Base_Add(346, 777, 8);
+        // Any_Base_Subtract(236, 1212, 8);//n2>n1
+        // Any_Base_Multiply(2,2,8);
+        // Span_Array();
+        // Linear_Search(arr,10);
+        // Bar_Chart();
+        // Sum_Of_Two_Array();
+        // Difference_Of_Two_Array();
+        // Duplicate_Brackets();
+        // Balance_Bracket();
+        // Next_Big_Element();
+        int[] ans = Next_Big_Element_II(arr);
+        for (int nn : ans) {
+            System.out.print(nn + "-");
+        }
+        // Stock_Span();
+        // Largest_Area();
+        // Sliding_Window_Max();
+        // Sliding_Window_Max_2(arr,4);
+        // Celebrity_Problem();
+        // Megre_Overlapping();//not completed
+
+        // LINKED LIST
+        // LINKED LIST
+        // LINKED LIST
+        // LINKED LIST
+        // LINKED LIST
+
+        // LinkedList list = new LinkedList();
+        // list.addLast(10);list.addLast(20);list.addLast(30);list.addLast(23);
+        // list.addLast(40);list.addLast(50);list.addLast(60);list.addLast(70);
+
+        // list.addFirst(2);
+        // list.display();
+        // list.addAt(2,11);
+        // list.display();
+        // list.RemoveFirst();
+        // list.display();
+        // list.RemoveLast();
+        // list.display();
+        // list.RemoveAt(3);
+        // list.display();
+        // System.out.println(list.getLast()+"--"+list.getFirst());
+        // System.out.println(list.getAt(2));
+        // System.out.print("\n"+"Size = "+ list.size());
+        // System.out.println(list.kthfromlast(2));
+        // list.RevereDI(); list.display();
+        // System.out.println(list.kthfromlast(2));
+        // System.out.println(list.mid());
+        // LinkedList list = new LinkedList();
+        // list.addLast(10);list.addLast(20);list.addLast(30);list.addLast(23);
+        // LinkedList list2 = new LinkedList();
+        // list2.addLast(11);list2.addLast(2);list2.addLast(0);list2.addLast(3);
+        // LinkedList ans=Merg(list,list2);
+        // ans.display();
+        LinkedList list = new LinkedList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(30);
+        list.addLast(4);
+        list.addLast(41);
+        list.addLast(13);
+        list.addLast(21);
+        list.addLast(111);
+        // list.display();
+        // list.RemoveDuplicate();
+        // list.display();
+        // list.oddeven();
+        // list.display();
+        // list.DisplayReverse();
+        // list.reversePR();
+        // list.display();
+        // System.out.println(list.isplain());
+        // list.fold();
+        // list.display();
+        // list.Add(list,list2);
+        // //intersection is not working
+        // int nn=list.intersection(list,list2);
+        // System.out.println(nn);
+        // list.Krevferse(3);
+        // list.display();
+
+        // list.reverseDR();
+        // list.display();
+
+        // RECURSION
+        // RECURSION
+        // RECURSION
+        // RECURSION
+        // RECURSION
+        // RECURSION
+        // int n=5;
+        // printincreasin(n);
+        // printdecreasing(n);
+        // printd_i(n);
+        // System.out.println(fact(n));
+        // System.out.println(power_liner(n, 3));
+        // zigzag(n);
+        // tower_of_hanoi(n,100,200,300);
+        // int[] arr={11,2,3,4,2,1,2};
+        // display_array(arr, 0);
+        // display_array_rev(arr, 0);
+        // System.out.println(max_in_arr(arr, 0));
+        // System.out.println(first_index(arr,0,2));
+        // System.out.println(last_index(arr, 0, 2));
+        // int[] ans=all_index(arr, 2, 0, 0);
+        // for(int k:ans)System.out.println(k);
+        // ArrayList<String> ans=get_subsequence("abc");
+        // System.out.println(ans);
+        // ArrayList<String> ans=getkpc("678");
+        // System.out.println(ans);
+        // ArrayList<String> ans=stair_path(4);
+        // System.out.println(ans);
+        // ArrayList<String> ans=maze_path(1,1,3, 3);
+        // System.out.println(ans);
+        // ArrayList<String> ans=get_all_maze_path(1,1,3, 3);
+        // System.out.println(ans);
+        // print_subsequence("abc","");
+        // print_stair_path(4,"");
+        // print_maze_path(1, 1, 3, 3, "");
+        // print_maze_path_with_jump(1, 1, 3, 3, "");
+        // print_permutation("abc","");
+        // print_encoding("123","");
+        // int[][] arr1={
+        // {0,1,1,0},
+        // {0,0,1,0},
+        // {1,0,0,1},
+        // {0,1,0,0},
+        // };
+        // boolean[][] visited=new boolean[arr1.length][arr1[0].length];
+        // flood_fill(arr1,0,0,"",visited);
+        // int[] arr3={10,20,30,40,50};
+        // int target=50;
+        // tartget_sum_subset(arr3,0,"",0,target);
+        // int[][] arr=new int[4][4];
+        // N_Queens(arr, "", 0);
+
+    }
+
+    public static void isprime_approch_1(int[] arr) {
+        // this is approch 1
+        for (int i = 0; i < arr.length; i++) {
+            int count = 0;
+            for (int div = 1; div <= arr[i]; div++) {
+                if (arr[i] % div == 0) {
+                    count++;
+                }
+            }
+            if (count == 2) {
+                System.out.println("Prime");
+            } else {
+                System.out.println("Not Prime");
+            }
+        }
+    }
+
+    public static void isprime_approch_2(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int count = 0;
+            for (int div = 2; div * div <= arr[i]; div++) {
+                if (arr[i] % div == 0) {
+                    count++;
+                    break;
+                }
+            }
+            if (count == 0) {
+                System.out.println("Prime");
+            } else {
+                System.out.println("Not Prime");
+            }
+        }
+    }
+
+    public static void All_Prime() {
+        // print all prime between two range
+        Scanner scn = new Scanner(System.in);
+        int low = scn.nextInt();
+        int high = scn.nextInt();
+
+        for (int i = low; i <= high; i++) {
+            int count = 0;
+            for (int div = 2; div * div <= i; div++) {
+                if (i % div == 0) {
+                    count++;
+                    break;
+                }
+            }
+            if (count == 0) {
+                System.out.println(i);
+            }
+        }
+        scn.close();
+    }
+
+    public static void Fibo_Approch_1(int n) {
+        int f = 0, s = 1, t;
+        for (int i = 0; i < n; i++) {
+            System.out.println(f);// 0 1 1 2 3
+            t = f + s;// 1 2 3
+            f = s;// 1 1 2
+            s = t;// 1 2 3
+        }
+    }
+
+    public static int Fibo_Approch_2(int n) {
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return 1;
+
+        int f = Fibo_Approch_2(n - 1) + Fibo_Approch_2(n - 2);
+        return f;
+    }
+
+    public static void Count_Digit(int n) {
+        int count = 0;
+        while (n != 0) {
+            n /= 10;
+            count++;
+        }
+        System.out.println(count);
+    }
+
+    public static void Print_Digit(int n) {
+        // print digit from starting
+        int number_of_digit = 0;
+        int temp = n;
+        while (temp != 0) {
+            temp /= 10;
+            number_of_digit++;
+        }
+        int div = (int) Math.pow(10, number_of_digit - 1);
+        while (div != 0) {
+            int q = n / div;
+            System.out.println(q);
+            n = n % div;
+            div /= 10;
+        }
+    }
+
+    public static void Reverse_Number(int n) {
+        int n1 = n;
+        while (n > 0) {
+            int t = n % 10;
+            n = n / 10;
+            System.out.println(t);
+        }
+        int rv = 0;
+        while (n1 != 0) {
+            int last = n1 % 10;
+            rv = rv * 10 + last;
+            n1 /= 10;
+        }
+        System.out.println(rv);
+    }
+
+    public static void Invere_Number(int n) {
+        int inv = 0;
+        int op = 1;
+        while (n != 0) {
+            int od = n % 10;
+            int id = op;
+            int ip = od;
+
+            inv = inv + id * (int) Math.pow(10, ip - 1);
+            n /= 10;
+            op++;
+        }
+        System.out.println(inv);
+    }
+
+    public static void Rotate_Number(int n, int k) {
+        int temp = n;
+        int nod = 0;
+        while (temp > 0) {
+            temp /= 10;
+            nod++;
+        }
+        k = k % nod;
+        if (k < 0) {
+            k = k + nod;
+        }
+        int div = 1;
+        int mult = 1;
+        for (int i = 1; i <= nod; i++) {
+            if (i <= k) {
+                div = div * 10;
+            } else {
+                mult = mult * 10;
+            }
+        }
+        int q = n / div;
+        int r = n % div;
+
+        int rot = r * mult + q;
+        System.out.println(rot);
+    }
+
+    public static void GCD_LCM() {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int on1 = n1;
+        int on2 = n2;
+        while (n1 % n2 != 0) {
+            int rem = n1 % n2;
+            n1 = n2;
+            n2 = rem;
+        }
+        int gcd = n2;
+        int lcm = (on1 * on2) / gcd;
+        System.out.println(gcd);
+        System.out.println(lcm);
+        sc.close();
+    }
+
+    public static void prime_factorization(int n) {
+        // print prime factor till n
+        for (int div = 2; div * div <= n; div++) {
+            while (n % div == 0) {
+                n = n / div;
+                System.out.println(div);
+            }
+        }
+        if (n != 1) {
+            System.out.println(n);
+        }
+    }
+
+    public static void Pythogoron_triplet(int a, int b, int c) {
+        int max = a;
+        if (b >= max) {
+            max = b;
+        }
+        if (c >= max) {
+            max = c;
+        }
+        if (max == a) {
+            boolean flag = ((b * b + c * c) == (a * a));
+            System.out.println(flag);
+        } else if (max == b) {
+            boolean flag = ((a * a + c * c) == (b * b));
+            System.out.println(flag);
+        } else {
+            boolean flag = ((b * b + a * a) == (c * c));
+            System.out.println(flag);
+        }
+    }
+
+    public static void Benjamin_bulb() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();// print perfect square of given number
+        for (int i = 1; i * i <= n; i++) {
+            System.out.println(i * i);
+        }
+        sc.close();
+    }
+
+    public static void Pattern_1(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_2(int n) {
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_3(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (j >= (n + 1) - i) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_4(int n) {
+        int sp = n - 1;
+        int st = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= sp; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= st; j++) {
+                System.out.print("*");
+            }
+            sp--;
+            st++;
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_5(int n) {
+        int sp = 0;
+        int st = n;
+        for (int i = 1; i <= n; i++) {
+            // System.out.println(sp+" "+st);
+            for (int j = 1; j <= sp; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= st; j++) {
+                System.out.print("*");
+            }
+            sp++;
+            st--;
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_6(int n) {
+        int sp = n / 2;
+        int st = 1;
+        for (int i = 1; i <= n; i++) {
+            // System.out.println(sp+" "+st);
+            for (int j = 1; j <= sp; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= st; j++) {
+                System.out.print("*");
+            }
+            if (i <= n / 2) {
+                sp--;
+                st += 2;
+            } else {
+                sp++;
+                st -= 2;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_7(int n) {
+        int st = n / 2 + 1;
+        int sp = 1;
+        for (int i = 1; i <= n; i++) {
+            // System.out.println(st+" "+sp+" "+st);
+            for (int j = 1; j <= st; j++) {
+                System.out.print("*");
+            }
+            for (int j = 1; j <= sp; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= st; j++) {
+                System.out.print("*");
+            }
+            if (i <= n / 2) {
+                st--;
+                sp += 2;
+            } else {
+                st++;
+                sp -= 2;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_8(int n) {
+        for (int j = 1; j <= n; j++) {
+            for (int i = 1; i <= n; i++) {
+                if (i == j) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_9(int n) {
+        // opposite dignol
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (i + j == n + 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_10(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (i == j || i + j == n + 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_11(int n) {
+        int osp = n / 2;
+        int isp = -1;
+        for (int i = 1; i <= n; i++) {
+            // System.out.println(osp+"-"+isp);
+            for (int j = 1; j <= osp; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 1; j <= isp; j++) {
+                System.out.print(" ");
+            }
+            if (i > 1 && i < n) {
+                System.out.print("*");
+            }
+            if (i <= n / 2) {
+                osp--;
+                isp += 2;
+            } else {
+                osp++;
+                isp -= 2;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_12(int n) {
+        int v = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(v++ + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_13(int n) {
+        int a = 0, b = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(a + "  ");
+                int c = a + b;
+                a = b;
+                b = c;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_14(int n) {
+        for (int i = 0; i < n; i++) {
+            int icj = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print("\t" + icj);
+                int icjp1 = icj * (i - j) / (j + 1);
+                icj = icjp1;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern_15(int n) {
+        for (int i = 1; i <= 10; i++) {
+            int val = n * i;
+            System.out.println(n + "X" + i + "=" + val);
+        }
+    }
+
+    public static void Digit_Frequency(int n, int digit) {
+        int count = 0;
+        while (n != 0) {
+            int last = n % 10;
+            if (last == digit) {
+                count++;
+            }
+            n /= 10;
+        }
+        System.out.println(count);
+    }
+
+    public static void Decimal_To_Any_Base(int n, int b) {
+        int rv = 0;
+        int p = 1;
+        while (n > 0) {
+            int dig = n % b;
+            n = n / b;
+
+            rv += dig * p;
+            p = p * 10;
+        }
+        System.out.println(rv);
+    }
+
+    public static void Any_Base_To_Decimal(int n, int b) {
+        int rv = 0;
+        int p = 1;
+        while (n > 0) {
+            int dig = n % 10;
+            n = n / 10;
+
+            rv += dig * p;
+            p = p * b;
+        }
+        System.out.println(rv);
+    }
+
+    // ANY BASE TO ANY BASE START HERE
+    public static void Any_Base_To_Any_Base() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int b1 = sc.nextInt();
+        int b2 = sc.nextInt();
+        int dec = Any_base_to_Decimal(n, b1);
+        int ans = Decimal_to_any_base(dec, b2);
+        System.out.println(ans);
+        sc.close();
+    }
+
+    public static int Any_base_to_Decimal(int n, int b) {
+        int rv = 0;
+        int p = 1;
+        while (n > 0) {
+            int dig = n % 10;
+            n = n / 10;
+
+            rv += dig * p;
+            p = p * b;
+        }
+        return rv;
+    }
+
+    public static int Decimal_to_any_base(int n, int b) {
+        int rv = 0;
+        int p = 1;
+        while (n > 0) {
+            int dig = n % b;
+            n = n / b;
+
+            rv += dig * p;
+            p = p * 10;
+        }
+        return rv;
+    }
+
+    // END
+    public static void Any_Base_Add(int n1, int n2, int b) {
+        int rv = 0;
+        int c = 0;
+        int p = 1;
+        while (n1 > 0 || n2 > 0 || c > 0) {
+            int d1 = n1 % 10;
+            int d2 = n2 % 10;
+            n1 = n1 / 10;
+            n2 = n2 / 10;
+
+            int d = d1 + d2 + c;
+            c = d / b;
+            d = d % b;
+            rv += d * p;
+            p = p * 10;
+        }
+        System.out.println(rv);
+    }
+
+    public static void Any_Base_Subtract(int n1, int n2, int b) {
+        int rv = 0;
+        int c = 0;
+        int p = 1;
+        while (n2 > 0) {
+            int d1 = n1 % 10;
+            n1 = n1 / 10;
+            int d2 = n2 % 10;
+            n2 = n2 / 10;
+
+            int d = 0;
+            d2 = d2 + c;
+
+            if (d2 >= d1) {
+                c = 0;
+                d = d2 - d1;
+            } else {
+                c = -1;
+                d = d2 + b - d1;
+            }
+            rv = rv + d * p;
+            p = p * 10;
+        }
+        System.out.println(rv);
+    }
+
+    // multiply start
+    public static void Any_Base_Multiply(int n1, int n2, int b) {
+        int rv = 0;
+        int p = 1;
+        while (n2 > 0) {
+            int d2 = n2 % 10;
+            n2 = n2 / 10;
+
+            int spr = multiply_with_single_digit(n1, d2, b);
+            rv = Add(spr * p, rv, b);
+            p = p * 10;
+        }
+        System.out.println(rv);
+    }
+
+    static int multiply_with_single_digit(int n1, int d2, int b) {
+        int rv = 0;
+        int p = 1;
+        int c = 0;
+        while (n1 > 0 || c > 0) {
+            int d1 = n1 % 10;
+            n1 = n1 / 10;
+
+            int d = d1 * d2 + c;
+            c = d / b;
+            d = d % b;
+
+            rv = rv + d * p;
+            p = p * 10;
+        }
+        return rv;
+    }
+
+    public static int Add(int n1, int n2, int b) {
+        int rv = 0;
+
+        int c = 0;
+        int p = 1;
+        while (n1 > 0 || n2 > 0 || c > 0) {
+            int d1 = n1 % 10;
+            int d2 = n2 % 10;
+            n1 = n1 / 10;
+            n2 = n2 / 10;
+
+            int d = d1 + d2 + c;
+            c = d / b;
+            d = d % b;
+            rv += d * p;
+            p = p * 10;
+        }
+        return rv;
+    }
+
+    // multiply end
+    public static void Span_Array() {
+        Scanner sc = new Scanner(System.in);
+        int array_size = sc.nextInt();
+        int[] arr = new int[array_size];
+        for (int i = 0; i < array_size; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        System.out.println(max - min);
+        sc.close();
+    }
+
+    public static void Linear_Search(int[] arr, int key) {
+        int ans = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key) {
+                ans = i;
+                break;
+            }
+        }
+        System.out.println("Index=" + ans);
+    }
+
+    public static void Bar_Chart() {
+        Scanner sc = new Scanner(System.in);
+        int array_size = sc.nextInt();
+        int[] arr = new int[array_size];
+        for (int i = 0; i < array_size; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        for (int floor = max; floor >= 1; floor--) {
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] >= floor) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+
+    public static void Sum_Of_Two_Array() {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int[] arr1 = new int[n1];
+        int[] arr2 = new int[n2];
+        for (int i = 0; i < n1; i++) {
+            arr1[i] = sc.nextInt();
+        }
+        for (int i = 0; i < n2; i++) {
+            arr2[i] = sc.nextInt();
+        }
+        int[] sum = new int[n1 > n2 ? n1 : n2];
+        int c = 0;
+
+        int i = arr1.length - 1;
+        int j = arr2.length - 1;
+        int k = sum.length - 1;
+
+        while (k >= 0) {
+            int d = c;
+
+            if (i >= 0) {
+                d += arr1[i];
+            }
+            if (j >= 0) {
+                d += arr2[j];
+            }
+            c = d / 10;
+            d = d % 10;
+            sum[k] = d;
+            i--;
+            j--;
+            k--;
+        }
+        if (c != 0) {
+            System.out.print(c);
+        }
+        for (int val : sum) {
+            System.out.print(val);
+        }
+        sc.close();
+    }
+
+    public static void Difference_Of_Two_Array() {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int arr1[] = new int[n1];// n1>n2
+        for (int i = 0; i < arr1.length; i++) {
+            arr1[i] = sc.nextInt();
+        }
+        int n2 = sc.nextInt();
+        int arr2[] = new int[n2];
+        for (int i = 0; i < arr2.length; i++) {
+            arr2[i] = sc.nextInt();
+        }
+        int[] diff = new int[n2];
+        int c = 0;
+        int i = arr1.length - 1;
+        int j = arr2.length - 1;
+        int k = diff.length - 1;
+
+        while (k >= 0) {
+            int d = 0;
+            int aiv = i >= 0 ? arr1[i] : 0;
+            if (arr2[j] + c >= aiv) {
+                d = arr2[j] + c - aiv;
+                c = 0;
+            } else {
+                d = arr2[j] + c + 10 - aiv;
+                c = -1;
+            }
+            diff[k] = d;
+
+            i--;
+            j--;
+            k--;
+        }
+        int indx = 0;
+        while (indx < diff.length) {
+            if (diff[indx] == 0) {
+                indx++;
+            } else {
+                break;
+            }
+        }
+        while (indx < diff.length) {
+            System.out.print(diff[indx]);
+            indx++;
+        }
+        sc.close();
+    }
+
+    public static void Duplicate_Brackets() {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        sc.close();
+        Stack<Character> s = new Stack<>();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == ')') {
+                if (s.peek() == '(') {
+                    System.out.println("Duplicate");
+                    return;
+                } else {
+                    while (s.peek() != '(') {
+                        s.pop();
+                    }
+                }
+            } else {
+                s.push(ch);
+            }
+        }
+        System.out.println("No Duplicate");
+    }
+
+    public static void Balance_Bracket() {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+
+        Stack<Character> st = new Stack<>();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == '(' || ch == '{' || ch == '[') {
+                st.push(ch);
+            } else if (ch == ')') {
+                boolean val = handle(st, '(');
+                if (val == false) {
+                    System.out.println(val);
+                    return;
+                }
+            } else if (ch == '}') {
+                boolean val = handle(st, '{');
+                if (val == false) {
+                    System.out.println(val);
+                    return;
+                }
+            } else if (ch == ']') {
+                boolean val = handle(st, '[');
+                if (val == false) {
+                    System.out.println(val);
+                    return;
+                }
+            } else {
+
+            }
+        }
+        if (st.size() == 0) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+        sc.close();
+    }
+
+    public static boolean handle(Stack<Character> st, char corr) {
+        if (st.size() == 0) {
+            return false;
+        } else if (st.peek() != corr) {
+            return false;
+        } else {
+            st.pop();
+            return true;
+        }
+    }
+
+    // balance bracket end
+    public static void Next_Big_Element() {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int[] arr = new int[n1];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        // right to left approch
+        int[] nge = new int[arr.length];
+        Stack<Integer> st = new Stack<>();
+        st.push(arr[arr.length - 1]);
+        nge[arr.length - 1] = -1;
+
+        for (int i = arr.length - 2; i >= 0; i--) {
+            // -a+
+            while (st.size() > 0 && arr[i] >= st.peek()) {
+                st.pop();
+            }
+            if (st.size() == 0) {
+                nge[i] = -1;
+            } else {
+                nge[i] = st.peek();
+            }
+            st.push(arr[i]);
+        }
+        for (int k : nge) {
+            System.out.print(k + "  ");
+        }
+        sc.close();
+    }
+
+    public static int[] Next_Big_Element_II(int[] arr) {
+        int[] nge = new int[arr.length];
+        Stack<Integer> st = new Stack<>();
+        st.push(0);
+        for (int i = 1; i < arr.length; i++) {
+            while (st.size() > 0 && arr[i] > arr[st.peek()]) {
+                int pos = st.peek();
+                nge[pos] = arr[i];
+                st.pop();
+            }
+            st.push(i);
+        }
+        while (st.size() > 0) {
+            int pos = st.peek();
+            nge[pos] = -1;
+            st.pop();
+        }
+        return nge;
+    }
+
+    public static void Stock_Span() {
+        Scanner sc = new Scanner(System.in);
+        int arrsize = sc.nextInt();
+        int[] arr = new int[arrsize];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        // logic start
+        int[] span = new int[arr.length];
+
+        Stack<Integer> st = new Stack<>();
+        st.push(0);
+        span[0] = 1;
+
+        for (int i = 1; i < arr.length; i++) {
+            while (st.size() > 0 && arr[i] > arr[st.peek()]) {
+                st.pop();
+            }
+            if (st.size() == 0) {
+                span[i] = i + 1;
+            } else {
+                span[i] = i - st.peek();
+            }
+            st.push(i);
+        }
+        for (int h : span) {
+            System.out.print(h + " ");
+        }
+        sc.close();
+    }
+
+    public static void Largest_Area() {
+        // largest area in histogram
+        Scanner sc = new Scanner(System.in);
+        int arrsize = sc.nextInt();
+        int[] arr = new int[arrsize];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        // next greater element index on the right
+        int[] rb = new int[arr.length];
+        Stack<Integer> st;
+        st = new Stack<>();
+        st.push(arr.length - 1);
+        rb[arr.length - 1] = arr.length;
+        for (int i = arr.length - 2; i >= 0; i--) {
+            while (st.size() > 0 && arr[i] < arr[st.peek()]) {
+                st.pop();
+            }
+            if (st.size() == 0) {
+                rb[i] = arr.length;
+            } else {
+                rb[i] = st.peek();
+            }
+            st.push(i);
+        }
+        // next greater element index on the left
+        int[] lb = new int[arr.length];
+        st = new Stack<>();
+        st.push(0);
+        lb[0] = -1;
+        for (int i = 1; i < arr.length; i++) {
+            while (st.size() > 0 && arr[i] < arr[st.peek()]) {
+                st.pop();
+            }
+            if (st.size() == 0) {
+                lb[i] = -1;
+            } else {
+                lb[i] = st.peek();
+            }
+            st.push(i);
+        }
+
+        int maxarea = 0;
+        for (int i = 0; i < arr.length; i++) {
+            int width = rb[i] - lb[i] - 1;
+            int area = arr[i] * width;
+            if (area > maxarea) {
+                maxarea = area;
+            }
+        }
+        System.out.println("Area" + maxarea);
+        sc.close();
+    }
+
+    public static void Sliding_Window_Max() {
+        // find max in every window like k=4
+        // input=1,2,3,4,5,6
+        // output=4 5 6
+        Scanner sc = new Scanner(System.in);
+        int arrsize = sc.nextInt();
+        int[] arr = new int[arrsize];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int k = 4;
+        Stack<Integer> st = new Stack<>();
+        int[] nge = new int[arr.length];
+        st.push(arr.length - 1);
+        nge[arr.length - 1] = arr.length;
+        for (int i = arr.length - 2; i >= 0; i--) {
+            // pop answer push
+            while (st.size() > 0 && arr[i] >= arr[st.peek()]) {
+                st.pop();
+            }
+            if (st.size() == 0) {
+                nge[i] = arr.length;
+            } else {
+                nge[i] = st.peek();
+            }
+            st.push(i);
+        }
+        for (int i = 0; i <= arr.length - k; i++) {
+            int j = i;
+            while (nge[j] < i + k) {
+                j = nge[j];
+            }
+            System.out.print(arr[j] + "-");
+        }
+    }
+
+    public static void Sliding_Window_Max_2(int[] arr, int k) {
+        // find max in window size
+        // IP={1,22,3,41,15,46,57,18,29}
+        // OP=41-41-46-57-57-57-
+        int max = 0;
+        for (int i = 0; i <= arr.length - k; i++) {
+            max = 0;
+            int l = i;
+            for (int j = i; j < k + l; j++) {
+                if (max < arr[j]) {
+                    max = arr[j];
+                }
+            }
+            System.out.print(max + "-");
+        }
+    }
+
+    public static void Infix_Evaluation()throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(br.readLine());
+        }
+        int k = Integer.parseInt(br.readLine());
+
+        // nge begin
+        int[] nge = new int[arr.length];
+        Stack<Integer> st = new Stack<>();
+        st.push(arr.length - 1);
+        nge[arr.length - 1] = arr.length;
+
+        for (int i = arr.length - 2; i >= 0; i--) {
+            while (st.size() > 0 && arr[i] >= arr[st.peek()]) {
+                st.pop();
+            }
+
+            if (st.size() == 0) {
+                nge[i] = arr.length;
+            } else {
+                nge[i] = st.peek();
+            }
+
+            st.push(i);
+        }
+
+        // nge end
+        int i = 0;
+        for (int w = 0; w <= arr.length - k; w++) {
+            if (i < w) {
+                i = w;
+            }
+
+            while (nge[i] < w + k) {
+                i = nge[i];
+            }
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static void Infix_Conversion()throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String exp = br.readLine();
+    
+        // code
+        Stack< String> postfix = new Stack<>();
+        Stack< String> prefix = new Stack<>();
+        Stack< Character> operators = new Stack<>();
+    
+        for (int i = 0; i < exp.length(); i++) {
+          char ch = exp.charAt(i);
+    
+          if (ch == '(') {
+            operators.push(ch);
+          } else if ((ch >= '0' && ch <= '9') || (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))  {
+            postfix.push(ch + "");
+            prefix.push(ch + "");
+          } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+            while (operators.size() > 0 && operators.peek() != '(' && precedence(ch) <= precedence(operators.peek())) {
+              char op = operators.pop();
+    
+              String postval2 = postfix.pop();
+              String postval1 = postfix.pop();
+              postfix.push(postval1 + postval2 + op);
+    
+              String preval2 = prefix.pop();
+              String preval1 = prefix.pop();
+              prefix.push(op + preval1 + preval2);
+            }
+    
+            operators.push(ch);
+          } else if (ch == ')') {
+            while (operators.size() > 0 && operators.peek() != '(') {
+              char op = operators.pop();
+    
+              String postval2 = postfix.pop();
+              String postval1 = postfix.pop();
+              postfix.push(postval1 + postval2 + op);
+    
+              String preval2 = prefix.pop();
+              String preval1 = prefix.pop();
+              prefix.push(op + preval1 + preval2);
+            }
+    
+            if (operators.size() > 0) {
+              operators.pop();
+            }
+          }
+        }
+    
+        while (operators.size() > 0) {
+          char op = operators.pop();
+    
+          String postval2 = postfix.pop();
+          String postval1 = postfix.pop();
+          postfix.push(postval1 + postval2 + op);
+    
+          String preval2 = prefix.pop();
+          String preval1 = prefix.pop();
+          prefix.push(op + preval1 + preval2);
+        }
+    
+        System.out.println(postfix.peek());
+        System.out.println(prefix.peek());
+      }
+    
+      public static int precedence(char op) {
+        if (op == '+') {
+          return 1;
+        } else if (op == '-') {
+          return 1;
+        } else if (op == '*') {
+          return 2;
+        } else {
+          return 2;
+        }
+    }
+
+    public static void Post_E_and_C()throws IOException {
+        //Postfix Evaluation and Conversion
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String exp = br.readLine();
+        Stack< Integer> vs = new Stack< >();      //1
+        Stack< String> is = new Stack< >();
+        Stack< String> ps = new Stack< >();
+    
+        for (int i = 0; i < exp.length(); i++) {
+          char ch = exp.charAt(i);   //2
+    
+          if (ch == '+' || ch == '-' || ch == '*' || ch == '/') { //3
+            int v2 = vs.pop();
+            int v1 = vs.pop();
+            int val = operation1(v1, v2, ch);
+            vs.push(val);
+    
+            String iv2 = is.pop();     //4
+            String iv1 = is.pop();
+            String ival = "(" + iv1 + ch + iv2 + ")";
+            is.push(ival);
+    
+            String pv2 = ps.pop(); //5
+            String pv1 = ps.pop();
+            String pval = ch + pv1 + pv2;
+            ps.push(pval);
+          } else {
+            vs.push(ch - '0'); //6
+            is.push(ch + "");
+            ps.push(ch + "");
+          }
+        }
+        System.out.println(vs.pop());    //7
+        System.out.println(is.pop());
+        System.out.println(ps.pop());
+      }
+      public static int operation1 (int v1, int v2, char op) {  //8
+    
+    
+        if (op == '+') {
+          return v1 + v2;
+        } else if (op == '-') {
+          return v1 - v2;
+        } else if (op == '*') {
+          return v1 * v2;
+        } else {
+          return v1 / v2;
+        }
+    
+    }
+
+    public static void Pre_E_and_C()throws IOException {
+        //Postfix Evaluation and Conversion
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String exp = br.readLine();
+        Stack< Integer> vs = new Stack< >();      //1
+        Stack< String> is = new Stack< >();
+        Stack< String> ps = new Stack< >();
+    
+        for (int i = 0; i < exp.length(); i++) {
+          char ch = exp.charAt(i);   //2
+    
+          if (ch == '+' || ch == '-' || ch == '*' || ch == '/') { //3
+            int v2 = vs.pop();
+            int v1 = vs.pop();
+            int val = operation2(v1, v2, ch);
+            vs.push(val);
+    
+            String iv2 = is.pop();     //4
+            String iv1 = is.pop();
+            String ival = "(" + iv1 + ch + iv2 + ")";
+            is.push(ival);
+    
+            String pv2 = ps.pop(); //5
+            String pv1 = ps.pop();
+            String pval = ch + pv1 + pv2;
+            ps.push(pval);
+          } else {
+            vs.push(ch - '0'); //6
+            is.push(ch + "");
+            ps.push(ch + "");
+          }
+        }
+        System.out.println(vs.pop());    //7
+        System.out.println(is.pop());
+        System.out.println(ps.pop());
+      }
+      public static int operation2 (int v1, int v2, char op) {  //8
+    
+    
+        if (op == '+') {
+          return v1 + v2;
+        } else if (op == '-') {
+          return v1 - v2;
+        } else if (op == '*') {
+          return v1 * v2;
+        } else {
+          return v1 / v2;
+        }
+    
+    }
+    public static void Pre_E_and_Con()throws IOException{
+        //Prefix Evaluation and Conversion
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String exp = br.readLine();
+        Stack< Integer> vs = new Stack< >();      //1
+        Stack< String> is = new Stack< >();
+        Stack< String> ps = new Stack< >();
+    
+        for (int i = exp.length() - 1; i >= 0; i--) {
+          char ch = exp.charAt(i);   //2
+    
+          if (ch == '+' || ch == '-' || ch == '*' || ch == '/') { //3
+            int v1 = vs.pop();
+            int v2 = vs.pop();
+            int val = operation3(v1, v2, ch);
+            vs.push(val);
+    
+            String iv1 = is.pop();     //4
+            String iv2 = is.pop();
+            String ival = "(" + iv1 + ch + iv2 + ")";
+            is.push(ival);
+    
+            String pv1 = ps.pop(); //5
+            String pv2 = ps.pop();
+            String pval = pv1 + pv2 + ch;
+            ps.push(pval);
+          } else {
+            vs.push(ch - '0'); //6
+            is.push(ch + "");
+            ps.push(ch + "");
+          }
+        }
+        System.out.println(vs.pop());    //7
+        System.out.println(is.pop());
+        System.out.println(ps.pop());
+      }
+      public static int operation3 (int v1, int v2, char op) {  //8
+    
+    
+        if (op == '+') {
+          return v1 + v2;
+        } else if (op == '-') {
+          return v1 - v2;
+        } else if (op == '*') {
+          return v1 * v2;
+        } else {
+          return v1 / v2;
+        }
+    
+    }
+    public static void Normal_Stack(){
+        //Normal Stack
+        //see new file
+    }
+    public static void ff(){
+
+    }
+    public static void ff(){
+
+    }
+    public static void ff(){
+
+    }
+    public static void ff(){
+
+    }
+    public static void ff(){
+
+    }
+    
+    public static void Celebrity_Problem() {
+        int[] arr = { 0, 1, 2, 3 };// T C=Big O N
+        int[][] mat = {
+                { 0, 1, 1, 1 },
+                { 1, 0, 1, 0 },
+                { 0, 0, 1, 0 },
+                { 1, 1, 1, 0 },
+        };
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < arr.length; i++) {
+            st.push(arr[i]);
+        }
+
+        while (st.size() >= 2) {
+            int i = st.pop();
+            int j = st.pop();
+            if (mat[i][j] == 1) {
+                st.push(j);
+            } else {
+                st.push(i);
+            }
+        }
+        int pot = st.pop();
+        for (int i = 0; i < mat.length; i++) {
+            if (i != pot) {
+                if (mat[i][pot] == 0 || mat[pot][i] == 1) {
+                    System.out.println("None");
+                    return;
+                }
+            }
+        }
+        System.out.println(pot);
+    }
+
+    public static void Megre_Overlapping() {
+        // merge overlapping intervel
+        // class pair{
+        // int st;
+        // int et;
+        // pair(int st,int et){
+        // this.st=st;
+        // this.et=et;
+        // }
+        // }
+    }
+
+    // LINKEDLIST
+    // LINKEDLIST
+    // LINKEDLIST
+    // LINKEDLIST
+    // LINKEDLIST
+    // LINKEDLIST
+
+    static class Node {
+        int data;
+        Node next;
+    }
+
+    static class LinkedList {
+        Node head;
+        Node tail;
+        int size;
+
+        int getFirst() {
+            if (size == 0) {
+                System.out.println("List Empty");
+                return -1;
+            } else {
+                return head.data;
+            }
+        }
+
+        int getLast() {
+            if (size == 0) {
+                System.out.println("List Empty");
+                return -1;
+            } else {
+                return tail.data;
+            }
+        }
+
+        int getAt(int index) {
+            if (size == 0) {
+                System.out.println("List Empty");
+                return -1;
+            } else if (index < 0 || index >= size) {
+                System.out.println("Invalid ");
+                return -1;
+            } else {
+                Node temp = head;
+                for (int i = 0; i < index; i++) {
+                    temp = temp.next;
+                }
+                return temp.data;
+            }
+        }
+
+        void RemoveAt(int index) {
+            if (index < 0 || index >= size) {
+                System.out.println("Invalid");
+            } else if (index == 0) {
+                RemoveFirst();
+            } else {
+                Node temp = head;
+                for (int i = 0; i < index - 1; i++) {
+                    temp = temp.next;
+                }
+                temp.next = temp.next.next;
+                size--;
+            }
+        }
+
+        void RemoveLast() {
+            if (size == 0) {
+                System.out.println("List is Empty");
+            } else if (size == 1) {
+                head = tail = null;
+                size = 0;
+            } else {
+                Node temp = head;
+                for (int i = 0; i < size - 2; i++) {
+                    temp = temp.next;
+                }
+                tail = temp;
+                temp.next = null;
+                size--;
+            }
+        }
+
+        void RemoveFirst() {
+            if (size == 0) {
+                System.out.println("List is Empty");
+            } else if (size == 1) {
+                head = tail = null;
+                size = 0;
+            } else {
+                head = head.next;
+                size--;
+            }
+        }
+
+        void addAt(int index, int value) {
+            if (index < 0 || index > size) {
+                System.out.println("Invalid argument");
+            } else if (index == size) {
+                addLast(value);
+            } else {
+                Node node = new Node();
+                node.data = value;
+                Node temp = head;
+                for (int i = 0; i < index - 1; i++) {
+                    temp = temp.next;
+                }
+                node.next = temp.next;
+                temp.next = node;
+                size++;
+            }
+        }
+
+        void addFirst(int val) {
+            Node temp = new Node();
+            temp.data = val;
+            temp.next = head;
+            head = temp;
+            if (size == 0)
+                tail = temp;
+            size++;
+        }
+
+        void addLast(int val) {
+            Node temp = new Node();
+            temp.data = val;
+            temp.next = null;
+
+            if (size == 0) {
+                head = tail = temp;
+            } else {
+                tail.next = temp;
+                tail = temp;
+            }
+            size++;
+        }
+
+        public int size() {
+            return size;
+        }
+
+        public void display() {
+            Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.data + "--");
+                temp = temp.next;
+            }
+            System.out.println("Null");
+        }
+
+        public void RevereDI() {
+            int li = 0;
+            int ri = size - 1;
+            while (li < ri) {
+                Node left = getNodeAt(li);
+                Node right = getNodeAt(ri);
+                int temp = left.data;
+                left.data = right.data;
+                right.data = temp;
+                li++;
+                ri--;
+            }
+        }
+
+        Node getNodeAt(int index) {
+            Node temp = head;
+            for (int i = 0; i < index; i++) {
+                temp = temp.next;
+            }
+            return temp;
+        }
+        public static void L_L_Stack(){
+            //Linked List to Stack Adapter
+            
+        }
+        
+        int kthfromlast(int k) {
+            // Reverse list through iterative
+            Node s = head;
+            Node f = head;
+            for (int i = 0; i < k; i++) {
+                f = f.next;
+            }
+            while (f != tail) {
+                s = s.next;
+                f = f.next;
+            }
+            return s.data;
+        }
+
+        int mid() {
+            Node s = head;
+            Node f = head;
+            while (f.next != null && f.next.next != null) {
+                s = s.next;
+                f = f.next.next;
+            }
+            return s.data;
+        }
+
+        // this merg and merg sort not work see it
+        LinkedList Merg(Node l1, Node l2) {
+            Node one = l1;
+            Node two = l2;
+            LinkedList res = new LinkedList();
+            while (one != null && two != null) {
+                if (one.data < two.data) {
+                    res.addLast(one.data);
+                    one = one.next;
+                } else {
+                    res.addLast(two.data);
+                    two = two.next;
+                }
+            }
+            while (one != null) {
+                res.addLast(one.data);
+                one = one.next;
+            }
+            while (two != null) {
+                res.addLast(two.data);
+                two = two.next;
+            }
+            return res;
+        }
+
+        public void RemoveDuplicate() {
+            LinkedList res = new LinkedList();
+            while (this.size() > 0) {
+                int val = this.getFirst();
+                this.RemoveFirst();
+                if (res.size() == 0 || res.tail.data != val) {
+                    res.addLast(val);
+                }
+            }
+            this.head = res.head;
+            this.tail = res.tail;
+            this.size = res.size;
+        }
+
+        public void oddeven() {
+            LinkedList odd = new LinkedList();
+            LinkedList even = new LinkedList();
+            while (this.size() > 0) {
+                int val = this.getFirst();
+                this.RemoveFirst();
+                if (val % 2 == 0) {
+                    even.addLast(val);
+                } else {
+                    odd.addLast(val);
+                }
+            }
+
+            if (odd.size > 0 && even.size > 0) {
+                this.head = odd.head;
+                this.tail = even.tail;
+                this.size = odd.size + even.size;
+            } else if (odd.size > 0) {
+                this.head = odd.head;
+                this.tail = odd.tail;
+                this.size = odd.size;
+            } else if (even.size > 0) {
+                this.head = even.head;
+                this.tail = even.tail;
+                this.size = even.size;
+            }
+            odd.display();
+            even.display();
+        }
+
+        public void DisplayReverse() {
+            displayreversehelp(head);
+            System.out.println();
+        }
+
+        public void displayreversehelp(Node node) {
+            if (node == null) {
+                return;
+            }
+            displayreversehelp(node.next);
+            System.out.print(node.data + "--");
+        }
+
+        public void reversePR() {
+            reversePRhelp(head);
+            head.next = null;
+            Node temp = head;
+            head = tail;
+            tail = temp;
+        }
+
+        void reversePRhelp(Node node) {
+            if (node == null)
+                return;
+            reversePRhelp(node.next);
+            if (node == tail) {
+                // do noting
+            } else {
+                node.next.next = node;
+            }
+        }
+
+        boolean isplain() {
+            pleft = head;
+            return isplainhelp(head);
+        }
+
+        Node pleft;
+
+        boolean isplainhelp(Node right) {
+            if (right == null)
+                return true;
+            boolean rres = isplainhelp(right.next);
+            if (rres == false) {
+                return false;
+            } else if (pleft.data != right.data) {
+                return false;
+            } else {
+                pleft = pleft.next;
+                return true;
+            }
+        }
+
+        Node fleft;
+
+        public void fold() {
+            fleft = head;
+            foldhelp(head, 0);
+        }
+
+        void foldhelp(Node right, int floor) {
+            if (right == null)
+                return;
+            foldhelp(right.next, floor + 1);
+            if (floor > size / 2) {
+                Node temp = fleft.next;
+                fleft.next = right;
+                right.next = temp;
+                fleft = temp;
+            } else if (floor == size / 2) {
+                tail = right;
+                tail.next = null;
+            }
+        }
+
+        public void Add(LinkedList one, LinkedList two) {
+            LinkedList res = new LinkedList();
+            int oc = addhelp(one.head, one.size, two.head, two.size, res);
+            if (oc > 0) {
+                res.addFirst(oc);
+            }
+            res.display();
+            // return res;
+        }
+
+        int addhelp(Node one, int pv1, Node two, int pv2, LinkedList res) {
+            if (one == null && two == null)
+                return 0;
+
+            int data = 0;
+            if (pv1 > pv2) {
+                int oc = addhelp(one.next, pv1 - 1, two, pv2, res);
+                data = one.data + oc;
+            } else if (pv1 < pv2) {
+                int oc = addhelp(one, pv1, two.next, pv2 - 1, res);
+                data = two.data + oc;
+            } else {
+                int oc = addhelp(one.next, pv1 - 1, two.next, pv2 - 1, res);
+                data = one.data + two.data + oc;
+            }
+            int nd = data % 10;
+            int nc = data / 10;
+            res.addFirst(nd);
+            return nc;
+        }
+
+        int intersection(LinkedList one, LinkedList two) {
+            Node t1 = one.head;
+            Node t2 = two.head;
+
+            int delta = Math.abs(one.size - two.size);
+            if (one.size > two.size) {
+                for (int i = 0; i < delta; i++) {
+                    t1 = t1.next;
+                }
+            } else {
+                for (int i = 0; i < delta; i++) {
+                    t2 = t2.next;
+                }
+            }
+            while (t1 != t2) {
+                t1 = t1.next;
+                t2 = t2.next;
+            }
+            return t2.data;
+        }
+
+        void Krevferse(int k) {
+            LinkedList prev = null;
+
+            while (this.size > 0) {
+                LinkedList curr = new LinkedList();
+                if (this.size >= k) {
+                    for (int i = 0; i < k; i++) {
+                        int val = this.getFirst();
+                        this.RemoveFirst();
+                        curr.addFirst(val);
+                    }
+                } else {
+                    int os = this.size();
+                    for (int i = 0; i < os; i++) {
+                        int val = this.getFirst();
+                        this.RemoveFirst();
+                        curr.addFirst(val);
+                    }
+                }
+                if (prev == null) {
+                    prev = curr;
+                } else {
+                    prev.tail.next = curr.head;
+                    prev.tail = curr.tail;
+                    prev.size = curr.size;
+                }
+            }
+            this.head = prev.head;
+            this.tail = prev.tail;
+            this.size = prev.size;
+        }
+
+        Node rleft;
+
+        public void reverseDR() {
+            rleft = head;
+            reverseDRhelp(head, 0);
+        }
+
+        public void reverseDRhelp(Node right, int floor) {
+            if (right == null)
+                return;
+
+            reverseDRhelp(right.next, floor + 1);
+            if (floor >= size / 2) {
+                int temp = right.data;
+                right.data = rleft.data;
+                rleft.data = temp;
+
+                rleft = rleft.next;
+            }
+        }
+    }
+    
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+    // 2 D ---- ARRAY..
+
+    public static void multiply2d() {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        int c = sc.nextInt();
+        int[][] arr = new int[r][c];
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        int r2 = sc.nextInt();
+        int c2 = sc.nextInt();
+        int[][] arr2 = new int[r2][c2];
+        for (int i = 0; i < r2; i++) {
+            for (int j = 0; j < c2; j++) {
+                arr2[i][j] = sc.nextInt();
+            }
+        }
+        if (c != r2) {
+            System.out.println("Invalid input");
+            return;
+        }
+        int[][] prd = new int[r][c2];
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                for (int k = 0; k < c; k++) {
+                    prd[i][j] += arr[i][k] * arr2[k][j];
+                }
+            }
+        }
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print(prd[i][j] + "-");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void wavetravel() {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        int c = sc.nextInt();
+        int[][] arr = new int[r][c];
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        for (int j = 0; j < arr[0].length; j++) {
+            if (j % 2 == 0) {
+                for (int i = 0; i < arr.length; i++) {
+                    System.out.println(arr[i][j]);
+                }
+            } else {
+                for (int i = arr.length - 1; i >= 0; i--) {
+                    System.out.println(arr[i][j]);
+                }
+            }
+        }
+    }
+
+    public static void exitpoint(int[][] arr) {
+        int dir = 0;
+        int i = 0, j = 0;
+        while (true) {
+            dir = (dir + arr[i][j]) % 4;
+            if (dir == 0) {// east
+                j++;
+            } else if (dir == 1) {
+                i++;
+            } else if (dir == 3) {
+                j--;
+            } else if (dir == 4) {
+                i--;
+            }
+            if (i < 0) {
+                i++;
+                break;
+            } else if (j < 0) {
+                j++;
+                break;
+            } else if (i == arr.length) {
+                i--;
+                break;
+            } else if (j == arr[0].length) {
+                j--;
+                break;
+            }
+        }
+        System.out.println(i + "-" + j);
+    }
+
+    public static void rotate90deg(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr[0].length; j++) {
+                int temp = arr[i][j];
+                arr[i][j] = arr[j][i];
+                arr[j][i] = temp;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            int li = 0;
+            int ri = arr[i].length - 1;
+            while (li < ri) {
+                int t = arr[i][li];
+                arr[i][li] = arr[i][ri];
+                arr[i][ri] = t;
+                li++;
+                ri--;
+            }
+        }
+        // Display(arr);
+    }
+
+    public static void shellrotate(int[][] arr) {
+        int shell = 2;
+        int rt = 3;
+        // int[] oned=fillonedfromshell(arr,shell,rt);
+        // rotate(oned,rt);
+        // fillshell(arr,shell,oned);
+    }
+
+    static int[] fillshellformoned(int[][] arr, int r) {
+        int[] ans = new int[4];
+        return ans;
+    }
+
+    static void rotate(int[] oned, int r) {
+        r = r % oned.length;
+        if (r < 0) {
+            r = r + oned.length;
+        }
+        reverse(oned, 0, oned.length - r - 1);
+        reverse(oned, oned.length - 1 - r, oned.length - 1);
+        reverse(oned, 0, oned.length - 1);
+    }
+
+    static void reverse(int[] arr, int li, int ri) {
+        while (li < ri) {
+            int temp = arr[li];
+            arr[li] = arr[ri];
+            arr[ri] = temp;
+            li++;
+            ri--;
+        }
+    }
+
+    static void Diagnoltravel(int[][] arr) {
+
+    }
+
+    static void shaddlepoint(int[][] arr) {
+        // smallest in row and max in col
+        for (int i = 0; i < arr.length; i++) {
+            int svj = 0;
+            for (int j = 1; j < arr[0].length; j++) {
+                if (arr[i][j] < arr[i][svj]) {
+                    svj = j;
+                }
+            }
+            boolean flag = true;
+            for (int k = 0; k < arr.length; k++) {
+                if (arr[k][svj] > arr[i][svj]) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag == true) {
+                System.out.println(arr[i][svj]);
+                return;
+            }
+        }
+        System.out.println("Invalid input");
+    }
+
+    static void search2Darray(int[][] arr, int data) {
+        // search in 2d sorted array
+        int i = 0;
+        int j = arr[0].length - 1;
+        while (i < arr.length && j >= 0) {
+            if (data == arr[i][j]) {
+                System.out.println(i + "-" + j);
+                return;
+            } else if (data < arr[i][j]) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+    }
+
+    static void reversearray(int[] arr) {
+        int i = 0;
+        int j = arr.length - 1;
+        while (i < j) {
+            int t = arr[i];
+            arr[i] = arr[j];
+            arr[j] = t;
+
+            i++;
+            j--;
+        }
+    }
+
+    static void rotatearray(int[] arr, int r) {
+        r = r % arr.length;
+        if (r < 0) {
+            r = r + arr.length;
+        }
+        reverse(arr, 0, arr.length - r - 1);
+        reverse(arr, arr.length - r, arr.length - 1);
+        reverse(arr, 0, arr.length - 1);
+    }
+
+    static void inversearray(int[] arr) {
+        int[] ans = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            int v = arr[i];
+            ans[v] = i;
+        }
+        for (int n : ans) {
+            System.out.print(n + " ");
+        }
+    }
+
+    static void allsubarray(int[] arr) {
+
+    }
+
+    static void Allsubset(int[] arr) {
+        int limit = (int) Math.pow(2, arr.length);
+        for (int i = 0; i < arr.length; i++) {
+            String set = "";
+            int t = i;
+            for (int j = arr.length - 1; j >= 0; j--) {
+                int r = t % 2;
+                t = t / 10;
+                if (r == 0) {
+                    set = "-" + set;
+                } else {
+                    set = arr[j] + set;
+                }
+            }
+            System.out.println(set);
+        }
+    }
+
+    static int Binarysearch(int[] arr, int key) {
+        int lo = 0;
+        int hi = arr.length - 1;
+        while (lo < hi) {
+            int mid = (hi - lo) / 2;
+            if (arr[mid] == key) {
+                return arr[mid];
+            } else if (arr[mid] < key) {
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    static void ceilandfloor2(int[] arr, int data) {
+        int ceil = Integer.MIN_VALUE;
+        int floor = Integer.MAX_VALUE;
+        int lo = 0;
+        int hi = arr.length - 1;
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+            if (data < arr[mid]) {
+                hi = mid - 1;
+                ceil = arr[mid];
+            } else if (data > arr[mid]) {
+                lo = mid + 1;
+                floor = arr[mid];
+            } else {
+                ceil = arr[mid];
+                floor = arr[mid];
+                break;
+            }
+        }
+        System.out.println(ceil);
+        System.out.println(floor);
+    }
+
+    public static int[] searchRange(int[] arr, int target) {
+        int[] ans = { -1, -1 };
+        if (arr.length == 0)
+            return ans;
+        int low = 0;
+        int high = arr.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (arr[mid] == target) {
+                ans[0] = mid;
+                high = mid - 1;
+            } else if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        /////////////
+        low = 0;
+        high = arr.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (arr[mid] == target) {
+                ans[1] = mid;
+                low = mid + 1;
+                ;
+            } else if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return ans;
+    }
+
+    public static void Firstandlastindex(int[] arr, int data) {
+        int lo = 0;
+        int hi = arr.length - 1;
+        int fi = -1;
+        while (lo <= hi) {
+            int mid = (lo + hi) / 2;
+            if (data > arr[mid]) {
+                lo = mid + 1;
+            } else if (data < arr[mid]) {
+                hi = mid - 1;
+            } else {
+                fi = mid;
+                hi = mid - 1;
+            }
+        }
+        System.out.println(fi);
+
+        lo = 0;
+        hi = arr.length - 1;
+        int li = -1;
+        while (lo <= hi) {
+            int mid = (lo + hi) / 2;
+            if (data > arr[mid]) {
+                lo = mid + 1;
+            } else if (data < arr[mid]) {
+                hi = mid - 1;
+            } else {
+                li = mid;
+                lo = mid - 1;
+            }
+        }
+        System.out.println(li);
+    }
+
+    // RECURSION
+    // RECURSION
+    // RECURSION
+    // RECURSION
+    // RECURSION
+
+    static void Knights_tour() {
+
+    }
+
+    static void N_Queens(int[][] chess, String qsf, int row) {
+        if (row == chess.length) {
+            System.out.println(qsf + ".");
+            return;
+        }
+        for (int col = 0; col < chess.length; col++) {
+            if (issafe(chess, row, col) == true) {
+                chess[row][col] = 1;
+                N_Queens(chess, qsf + row + "-" + col, row + 1);
+                chess[row][col] = 0;
+            }
+        }
+    }
+
+    static boolean issafe(int[][] chess, int row, int col) {
+        for (int i = row - 1, j = col; i >= 0; i--) {
+            if (chess[i][j] == 1) {
+                return false;
+            }
+        }
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+            if (chess[i][j] == 1) {
+                return false;
+            }
+        }
+        for (int i = row - 1, j = col + 1; i >= 0 && j < chess.length; i--, j++) {
+            if (chess[i][j] == 1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    static void tartget_sum_subset(int[] arr, int index, String set, int sum_of_set, int tar) {
+        // output 10,40,
+        // 20,30,
+        // 50,
+        if (index == arr.length) {
+            if (sum_of_set == tar) {
+                System.out.println(set + "");
+            }
+            return;
+        }
+        tartget_sum_subset(arr, index + 1, set + arr[index] + ",", sum_of_set + arr[index], tar);
+        tartget_sum_subset(arr, index + 1, set, sum_of_set, tar);
+    }
+
+    static void flood_fill(int[][] maze, int row, int col, String psf, boolean[][] visited) {
+        // rassta from 0,0 cell to last cell in 2d matrix with obstacle 1
+        if (row < 0 || col < 0 || row == maze.length || col == maze[0].length || maze[row][col] == 1
+                || visited[row][col] == true) {
+            return;
+        }
+        if (row == maze.length - 1 && col == maze[0].length - 1) {
+            System.out.println(psf);
+            return;
+        }
+        visited[row][col] = true;
+        flood_fill(maze, row - 1, col, psf + "t", visited);
+        flood_fill(maze, row, col - 1, psf + "l", visited);
+        flood_fill(maze, row + 1, col, psf + "d", visited);
+        flood_fill(maze, row, col + 1, psf + "r", visited);
+    }
+
+    static void print_encoding(String str, String asf) {
+        if (str.length() == 0) {
+            System.out.println(asf);
+            return;
+        } else if (str.length() == 1) {
+            char ch = str.charAt(0);
+            if (ch == '0') {
+                return;
+            } else {
+                int chv = ch - '0';
+                char code = (char) ('a' + chv - 1);
+                asf = asf + code;
+                System.out.println(asf);
+            }
+        } else {
+            char ch = str.charAt(0);
+            String ros = str.substring(1);
+            if (ch == '0') {
+                return;
+            } else {
+                int chv = ch - '0';
+                char code = (char) ('a' + chv - 1);
+                print_encoding(ros, asf + code);
+            }
+            String ch12 = str.substring(0, 2);
+            String roq12 = str.substring(2);
+
+            int ch12v = Integer.parseInt(ch12);
+            if (ch12v <= 26) {
+                char code = (char) ('a' + ch12v - 1);
+                print_encoding(roq12, asf + code);
+            }
+        }
+    }
+
+    static void print_permutation(String str, String ans) {
+        // output=abc-acb-bac-bca-cab-cba-
+        if (str.length() == 0) {
+            System.out.print(ans + "-");
+            return;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            String leftpart = str.substring(0, i);
+            String rightpart = str.substring(i + 1);
+            String ros = leftpart + rightpart;
+            print_permutation(ros, ans + ch);
+        }
+    }
+
+    static void print_maze_path_with_jump(int sr, int sc, int dr, int dc, String psf) {
+        if (sr == dr && sc == dc) {
+            System.out.println(psf);
+            return;
+        }
+        for (int ms = 1; ms <= dc - sc; ms++) {
+            print_maze_path_with_jump(sr, sc + ms, dr, dc, psf + "h" + ms);
+        }
+        for (int ms = 1; ms <= dr - sr; ms++) {
+            print_maze_path_with_jump(sr + ms, sc, dr, dc, psf + "v" + ms);
+        }
+        for (int ms = 1; ms <= dc - sc && ms <= dr - sr; ms++) {
+            print_maze_path_with_jump(sr + ms, sc + ms, dr, dc, psf + "d" + ms);
+        }
+    }
+
+    static void print_maze_path(int sr, int sc, int dr, int dc, String psf) {
+        if (sr > dr || sc > dc) {
+            return;
+        }
+        if (sr == dr && sc == dc) {
+            System.out.println(psf);
+            return;
+        }
+        print_maze_path(sr, sc + 1, dr, dc, psf + "h");
+        print_maze_path(sr + 1, sc, dr, dc, psf + "v");
+    }
+
+    static void print_stair_path(int n, String path) {
+        if (n < 0) {
+            return;
+        }
+        if (n == 0) {
+            System.out.println(path);
+            return;
+        }
+        print_stair_path(n - 1, path + "1");
+        print_stair_path(n - 2, path + "2");
+        print_stair_path(n - 3, path + "3");
+    }
+
+    static void print_subsequence(String que, String ans) {
+        if (que.length() == 0) {
+            System.out.println(ans);
+            return;
+        }
+        char ch = que.charAt(0);
+        String roq = que.substring(1);
+
+        print_subsequence(roq, ans + "");
+        print_subsequence(roq, ans + ch);
+    }
+
+    static ArrayList<String> get_all_maze_path(int sr, int sc, int dr, int dc) {
+        // get all path in 2D matrix with all jump possible
+        if (sr == dr && sc == dc) {
+            ArrayList<String> o = new ArrayList<>();
+            o.add("");
+            return o;
+        }
+        ArrayList<String> path = new ArrayList<>();
+        // horizontal
+        for (int h = 1; h <= dc - sc; h++) {
+            ArrayList<String> hpath = get_all_maze_path(sr, sc + h, dr, dc);
+            for (String hpat : hpath) {
+                path.add("h" + h + hpat);
+            }
+        }
+        // vertiacl
+        for (int h = 1; h <= dr - sr; h++) {
+            ArrayList<String> vpath = get_all_maze_path(sr + h, sc, dr, dc);
+            for (String vpat : vpath) {
+                path.add("v" + h + vpat);
+            }
+        }
+        // dogonal moves
+        for (int h = 1; h <= dr - sr && h <= dc - sc; h++) {
+            ArrayList<String> dpath = get_all_maze_path(sr + h, sc + h, dr, dc);
+            for (String dpat : dpath) {
+                path.add("d" + h + dpat);
+            }
+        }
+        return path;
+    }
+
+    static ArrayList<String> maze_path(int sr, int sc, int dr, int dc) {
+        // get maze path in 2d array
+        if (sr == dr && sc == dc) {
+            ArrayList<String> h = new ArrayList<>();
+            h.add("");
+            return h;
+        }
+        ArrayList<String> hpath = new ArrayList<>();
+        ArrayList<String> vpath = new ArrayList<>();
+        if (sc < dc) {
+            hpath = maze_path(sr, sc + 1, dr, dc);
+        }
+        if (sr < dr) {
+            vpath = maze_path(sr + 1, sc, dr, dc);
+        }
+        ArrayList<String> path = new ArrayList<>();
+
+        for (String hpat : hpath) {
+            path.add("h" + hpat);
+        }
+        for (String vpat : vpath) {
+            path.add("v" + vpat);
+        }
+        return path;
+    }
+
+    static ArrayList<String> stair_path(int n) {
+        if (n == 0) {
+            ArrayList<String> k = new ArrayList<>();
+            k.add("");
+            return k;
+        } else if (n < 0) {
+            ArrayList<String> k = new ArrayList<>();
+            return k;
+        }
+
+        ArrayList<String> path1 = stair_path(n - 1);
+        ArrayList<String> path2 = stair_path(n - 2);
+        ArrayList<String> path3 = stair_path(n - 3);
+
+        ArrayList<String> rpath = new ArrayList<>();
+        for (String path : path1) {
+            rpath.add(1 + path);
+        }
+        for (String path : path2) {
+            rpath.add(2 + path);
+        }
+        for (String path : path3) {
+            rpath.add(3 + path);
+        }
+        return rpath;
+    }
+
+    // get pc start here
+    static String[] code = { "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz", };
+
+    static ArrayList<String> getkpc(String str) {
+        if (str.length() == 0) {
+            ArrayList<String> bres = new ArrayList<>();
+            bres.add("");
+            return bres;
+        }
+        char ch = str.charAt(0);
+        String ros = str.substring(1);
+
+        ArrayList<String> rres = getkpc(ros);
+        ArrayList<String> mres = new ArrayList<>();
+
+        String codeforch = code[ch - '0'];
+        for (int i = 0; i < codeforch.length(); i++) {
+            char chcode = codeforch.charAt(i);
+            for (String rstr : rres) {
+                mres.add(chcode + rstr);
+            }
+        }
+        return mres;
+    }
+
+    // get pc end here
+    static ArrayList<String> get_subsequence(String str) {
+        // subsequence is differ from substring
+        // output=[, a, b, ab, c, ac, bc, abc]
+        if (str.length() == 0) {
+            ArrayList<String> bres = new ArrayList<>();
+            bres.add("");
+            return bres;
+        }
+        char ch = str.charAt(0);
+        String ros = str.substring(1);
+        ArrayList<String> rres = get_subsequence(ros);
+
+        ArrayList<String> mres = new ArrayList<>();
+        for (String l : rres) {
+            mres.add("" + l);
+            mres.add(ch + l);
+        }
+        return mres;
+    }
+
+    static int[] all_index(int[] arr, int data, int index, int arr_size) {
+        // return all index where data is present
+        if (arr.length == index) {
+            return new int[arr_size];
+        }
+        if (arr[index] == data) {
+            int[] res = all_index(arr, data, index + 1, arr_size + 1);
+            res[arr_size] = index;
+            return res;
+        } else {
+            int[] res = all_index(arr, data, index + 1, arr_size);
+            return res;
+        }
+    }
+
+    static int last_index(int[] arr, int index, int data) {
+        if (arr.length == index)
+            return -1;
+
+        int lindex = last_index(arr, index + 1, data);
+        if (lindex == -1) {
+            if (arr[index] == data) {
+                return index;
+            } else {
+                return -1;
+            }
+        } else {
+            return lindex;
+        }
+    }
+
+    static int first_index(int[] arr, int index, int data) {
+        if (arr.length == 0)
+            return -1;
+        if (index == arr.length)
+            return -1;
+
+        int findex = first_index(arr, index + 1, data);
+
+        if (arr[index] == data)
+            return index;
+        else
+            return findex;
+    }
+
+    static int first_index2(int[] arr, int index, int data) {
+        // best approch
+        if (arr.length == 0)
+            return -1;
+        if (index == arr.length)
+            return -1;
+
+        if (arr[index] == data) {
+            return index;
+        } else {
+            int findex = first_index(arr, index + 1, data);
+            return findex;
+        }
+    }
+
+    static int max_in_arr(int[] arr, int index) {
+        // max in arr using recursion
+        if (index == arr.length - 1)
+            return arr[index];
+
+        int c = max_in_arr(arr, index + 1);
+        if (c > arr[index])
+            return c;
+        else
+            return arr[index];
+    }
+
+    static void display_array_rev(int[] arr, int index) {
+        if (index == arr.length)
+            return;
+        display_array_rev(arr, index + 1);
+        System.out.println(arr[index]);
+    }
+
+    static void display_array(int[] arr, int index) {
+        if (index == arr.length)
+            return;
+        System.out.println(arr[index]);
+        display_array(arr, index + 1);
+    }
+
+    static void tower_of_hanoi(int n, int d1, int d2, int d3) {
+        if (n == 0)
+            return;
+        tower_of_hanoi(n - 1, d1, d3, d2);
+        System.out.println(n + "|" + d1 + " " + d2);
+        tower_of_hanoi(n - 1, d3, d2, d1);
+    }
+
+    static void zigzag(int n) {
+        if (n == 0)
+            return;
+        System.out.print(n);
+        zigzag(n - 1);
+        System.out.print(n);
+        zigzag(n - 1);
+        System.out.print(n);
+    }
+
+    static int power_liner(int x, int n) {
+        if (n == 0)
+            return 1;
+        int xm1 = power_liner(x, n - 1);
+        int xn = x * xm1;
+        return xn;
+    }
+
+    static int fact(int n) {
+        if (n == 1)
+            return 1;
+        int h = fact(n - 1);
+        int ans = n * h;
+        return ans;
+    }
+
+    static void printd_i(int n) {
+        if (n == 0)
+            return;
+        System.out.println(n);
+        printd_i(n - 1);
+        System.out.println(n);
+    }
+
+    static void printincreasin(int n) {
+        if (n == 0)
+            return;
+        printincreasin(n - 1);
+        System.out.println(n);
+    }
+
+    static void printdecreasing(int n) {
+        if (n == 0)
+            return;
+        System.out.println(n);
+        printdecreasing(n - 1);
+    }
+
+}
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+public class Linked_List {
+    static class Node {
+    int data;
+    Node next;
+    }
+    static class LinkedList {
+    Node head;
+    Node tail;
+    int size;
+    int getFirst(){
+        if(size==0){
+            System.out.println("List Empty");
+            return -1;
+        }else{
+            return head.data;
+        }
+    }
+    int getLast(){
+        if(size==0){
+            System.out.println("List Empty");
+            return -1;
+        }else{
+            return tail.data;
+        }
+    }
+    int getAt(int index){
+        if(size==0){
+            System.out.println("List Empty");
+            return -1;
+        }else if(index<0||index>=size){
+            System.out.println("Invalid ");
+            return -1;
+        }else{
+            Node temp=head;
+            for(int i=0;i<index;i++){
+                temp=temp.next;
+            }
+            return temp.data;
+        }
+    }
+    void RemoveAt(int index){
+        if(index<0||index>=size){
+            System.out.println("Invalid");
+        }else if(index==0){
+            RemoveFirst();
+        }else{
+            Node temp=head;
+            for(int i=0;i<index-1;i++){
+                temp=temp.next;
+            }
+            temp.next=temp.next.next;
+            size--;
+        } 
+    }
+    void RemoveLast(){
+        if(size==0){
+            System.out.println("List is Empty");
+        }else if(size==1){
+            head=tail=null;
+            size=0;
+        }else{
+            Node temp=head;
+            for(int i=0;i<size-2;i++){
+                temp=temp.next;
+            }
+            tail=temp;
+            temp.next=null;
+            size--;
+        } 
+    }
+    void RemoveFirst(){
+        if(size==0){
+            System.out.println("List is Empty");
+        }else if(size==1){
+            head=tail=null;
+            size=0;
+        }else{
+            head=head.next;
+            size--;
+        }
+    }
+    void addAt(int index,int value){
+        if(index<0||index>size){
+            System.out.println("Invalid argument");
+        }else if(index==size){
+            addLast(value);
+        }else{
+            Node node=new Node();
+            node.data=value;
+            Node temp=head;
+            for(int i=0;i<index-1;i++){
+	temp=temp.next;
+	}
+	node.next=temp.next;
+	temp.next=node;
+	size++;
+        }
+    }
+    void addFirst(int val){
+        Node temp=new Node();
+        temp.data=val;
+        temp.next=head;
+        head=temp;
+        if(size==0)tail=temp;
+        size++;
+    }
+    void addLast(int val) {
+        Node temp = new Node();
+        temp.data = val;
+        temp.next = null;
+
+        if (size == 0) {
+            head = tail = temp;
+        } else {
+        tail.next = temp;
+        tail = temp;
+        }
+        size++;
+    }
+    public int size(){
+        return size;
+    }
+    public void display(){
+        Node temp=head;
+    while(temp!=null){
+        System.out.print(temp.data+"--");
+        temp=temp.next;
+    }
+    System.out.println("Null");
+    }
+    public  void RevereDI(){
+        int li=0;
+        int ri=size-1;
+        while(li<ri){
+            Node left=getNodeAt(li);
+            Node right=getNodeAt(ri);
+            int temp=left.data;
+            left.data=right.data;
+            right.data=temp;
+            li++;ri--;
+        }
+    }
+    Node getNodeAt(int index){
+        Node temp=head;
+        for(int i=0;i<index;i++){
+            temp=temp.next;
+        }
+        return temp;
+    }
+    int kthfromlast(int k){
+        //Reverse list through iterative 
+        Node s=head;
+        Node f=head;
+        for(int i=0;i<k;i++){
+            f=f.next;
+        }
+        while(f!=tail){
+            s=s.next;
+            f=f.next;
+        }
+        return s.data;
+    }
+    int mid(){
+        Node s=head;
+        Node f=head;
+        while(f.next!=null&&f.next.next!=null){
+            s=s.next;
+            f=f.next.next;
+        }
+        return s.data;
+    }
+    //this merg and merg sort not work see it
+    LinkedList Merg(Node l1,Node l2){
+        Node one=l1;
+        Node two=l2;
+        LinkedList res=new LinkedList();
+        while(one!=null&&two!=null){
+            if(one.data<two.data){
+                res.addLast(one.data);
+                one=one.next;
+            }else{
+                res.addLast(two.data);
+                two=two.next;
+            }
+        }
+        while(one!=null){
+            res.addLast(one.data);
+                one=one.next;
+        }
+        while(two!=null){
+            res.addLast(two.data);
+            two=two.next;
+        }
+        return res;
+    }
+    public void RemoveDuplicate(){
+        LinkedList res=new LinkedList();
+        while(this.size()>0){
+            int val=this.getFirst();
+            this.RemoveFirst();
+            if(res.size()==0||res.tail.data!=val){
+                res.addLast(val);
+            }
+        }
+        this.head=res.head;
+        this.tail=res.tail;
+        this.size=res.size;
+    }
+    public void oddeven(){
+        LinkedList odd=new LinkedList();
+        LinkedList even=new LinkedList();
+        while(this.size()>0){
+            int val=this.getFirst();
+            this.RemoveFirst();
+            if(val%2==0){
+                even.addLast(val);
+            }else{
+                odd.addLast(val);
+            }
+        }
+        
+        if(odd.size>0&&even.size>0){
+            this.head=odd.head;
+            this.tail=even.tail;
+            this.size=odd.size+even.size;
+        }else if(odd.size>0){
+            this.head=odd.head;
+            this.tail=odd.tail;
+            this.size=odd.size;
+        }else if(even.size>0){
+            this.head=even.head;
+            this.tail=even.tail;
+            this.size=even.size;
+        }
+        odd.display();
+        even.display();
+    }
+    public void DisplayReverse(){
+        displayreversehelp(head);
+        System.out.println();
+    }
+    public void  displayreversehelp(Node node){
+        if(node==null){
+            return;
+        }
+        displayreversehelp(node.next);
+        System.out.print(node.data+"--");
+    }
+    public void reversePR(){
+        reversePRhelp(head);
+        head.next=null;
+        Node temp=head;
+        head=tail;
+        tail=temp;
+    }
+    void reversePRhelp(Node node){
+        if(node==null)return;
+        reversePRhelp(node.next);
+        if(node==tail){
+            //do noting
+        }else{
+            node.next.next=node;
+        }
+    }
+    boolean isplain(){
+        pleft=head;
+        return isplainhelp(head);
+    }
+    Node pleft;
+    boolean isplainhelp(Node right){
+        if(right==null)return true;
+        boolean rres=isplainhelp(right.next);
+        if(rres==false){
+            return false;
+        }else if(pleft.data!=right.data){
+            return false;
+        }else{
+            pleft=pleft.next;
+            return true;
+        }
+    }
+    Node fleft;
+    public void fold(){
+        fleft=head;
+        foldhelp(head,0);
+    }
+    void foldhelp(Node right,int floor){
+        if(right==null)return;
+        foldhelp(right.next,floor+1);
+        if(floor>size/2){
+            Node temp=fleft.next;
+            fleft.next=right;
+            right.next=temp;
+            fleft=temp;
+        }else if(floor==size/2){
+            tail=right;
+            tail.next=null;
+        }
+    }
+    public void Add(LinkedList one,LinkedList two){
+        LinkedList res=new LinkedList();
+        int oc=addhelp(one.head,one.size,two.head,two.size,res);
+        if(oc>0){
+            res.addFirst(oc);
+        }
+        res.display();
+        //return res;
+    }
+    int addhelp(Node one,int pv1,Node two,int pv2,LinkedList res){
+        if(one==null&&two==null)return 0;
+            
+        int data=0;
+        if(pv1>pv2){
+            int oc=addhelp(one.next,pv1-1,two,pv2,res);
+            data=one.data+oc;
+        }else if(pv1<pv2){
+            int oc=addhelp(one,pv1,two.next,pv2-1,res);
+            data=two.data+oc;
+        }else{
+            int oc=addhelp(one.next,pv1-1,two.next,pv2-1,res);
+            data=one.data+two.data+oc;
+        }
+        int nd=data%10;
+        int nc=data/10;
+        res.addFirst(nd);
+        return nc;
+    }
+    int intersection(LinkedList one,LinkedList two){
+        Node t1=one.head;
+        Node t2=two.head;
+        
+        int delta =Math.abs(one.size-two.size);
+        if(one.size>two.size){
+            for(int i=0;i<delta;i++){
+                t1=t1.next;
+            }
+        }else{
+            for(int i=0;i<delta;i++){
+                t2=t2.next;
+            }
+        }
+        while(t1!=t2){
+            t1=t1.next;
+            t2=t2.next;
+        }
+        return t2.data;
+    }
+    void Krevferse(int k){
+        LinkedList prev=null;
+        
+        while(this.size>0){
+            LinkedList curr=new LinkedList();
+            if(this.size>=k){
+                for(int i=0;i<k;i++){
+                    int val=this.getFirst();
+                    this.RemoveFirst();
+                    curr.addFirst(val);
+                }
+            }else {
+                int os=this.size();
+                for(int i=0;i<os;i++){
+                    int val=this.getFirst();
+                    this.RemoveFirst();
+                    curr.addFirst(val);
+                }
+            }
+            if(prev==null){
+                prev=curr;
+            }else{
+                prev.tail.next=curr.head;
+                prev.tail=curr.tail;
+                prev.size=curr.size;
+            }
+        }
+        this.head=prev.head;
+        this.tail=prev.tail;
+        this.size=prev.size;
+    }
+    Node rleft;
+    public void reverseDR(){
+        rleft=head;
+        reverseDRhelp(head,0);
+    }
+    public void reverseDRhelp(Node right,int floor){
+        if(right==null)return;
+        
+        reverseDRhelp(right.next,floor+1);
+        if(floor>=size/2){
+            int temp=right.data;
+            right.data=rleft.data;
+            rleft.data=temp;
+            
+            rleft=rleft.next;
+            }
+        }
+    }
+    
+    public static void main(String[] args) {
+        
+    // LinkedList list = new LinkedList();
+    // list.addLast(10);list.addLast(20);list.addLast(30);list.addLast(23);
+    //list.addLast(40);list.addLast(50);list.addLast(60);list.addLast(70);
+
+     //list.addFirst(2);
+     //list.display();
+    // list.addAt(2,11);
+    // list.display();
+    // list.RemoveFirst();
+    // list.display();
+    // list.RemoveLast();
+    // list.display();
+    // list.RemoveAt(3);
+    // list.display();
+    //  System.out.println(list.getLast()+"--"+list.getFirst());
+    //  System.out.println(list.getAt(2));
+    //  System.out.print("\n"+"Size = "+ list.size());
+    // System.out.println(list.kthfromlast(2));
+    // list.RevereDI(); list.display();
+    // System.out.println(list.kthfromlast(2));
+    //System.out.println(list.mid());
+    //   LinkedList list = new LinkedList();
+    // list.addLast(10);list.addLast(20);list.addLast(30);list.addLast(23);
+    //   LinkedList list2 = new LinkedList();
+    // list2.addLast(11);list2.addLast(2);list2.addLast(0);list2.addLast(3);
+    // LinkedList ans=Merg(list,list2);
+    // ans.display();
+    LinkedList list = new LinkedList();
+    list.addLast(1);
+    list.addLast(2);
+    list.addLast(30);
+    list.addLast(4);
+    list.addLast(41);
+    list.addLast(13);
+    list.addLast(21);
+    list.addLast(111);
+    // list.display();
+    // list.RemoveDuplicate();
+    // list.display();
+    // list.oddeven();
+    // list.display();
+    // list.DisplayReverse();
+    // list.reversePR();
+    // list.display();
+    // System.out.println(list.isplain());
+    // list.fold();
+    // list.display();
+    // list.Add(list,list2);
+    //     //intersection is not working 
+    // int nn=list.intersection(list,list2);
+    // System.out.println(nn);
+    // list.Krevferse(3);
+    // list.display();
+
+    list.reverseDR();
+    list.display();
+
+    }
+}
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+import java.io.*;
+
+import java.util.*;
+
+public class Stack {
+
+  public static class CustomStack {
+    int[] data;
+    int tos;
+
+    public CustomStack(int cap) {
+      data = new int[cap];
+      tos = -1;
+    }
+
+    int size() {
+      return tos + 1;
+    }
+
+    void display() {
+      for (int i = tos; i >= 0; i--) {
+        System.out.print(data[i] + " ");
+      }
+      System.out.println();
+    }
+
+    void push(int val) {
+      if (tos == data.length - 1) {
+        System.out.println("Stack overflow");
+      } else {
+        tos++;
+        data[tos] = val;
+      }
+    }
+
+    int pop() {
+      if (tos == -1) {
+        System.out.println("Stack underflow");
+        return -1;
+      } else {
+        int val = data[tos];
+        tos--;
+        return val;
+      }
+    }
+
+    int top() {
+      if (tos == -1) {
+        System.out.println("Stack underflow");
+        return -1;
+      } else {
+        return data[tos];
+      }
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int n = Integer.parseInt(br.readLine());
+    CustomStack st = new CustomStack(n);
+
+    String str = br.readLine();
+    while (str.equals("quit") == false) {
+      if (str.startsWith("push")) {
+        int val = Integer.parseInt(str.split(" ")[1]);
+        st.push(val);
+      } else if (str.startsWith("pop")) {
+        int val = st.pop();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("top")) {
+        int val = st.top();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("size")) {
+        System.out.println(st.size());
+      } else if (str.startsWith("display")) {
+        st.display();
+      }
+      str = br.readLine();
+    }
+  }
+
+//Dynamic Stack
+//Dynamic Stack
+//Dynamic Stack
+
+
+public class Dynamic_Stack {
+
+    public static class CustomStack {
+      int[] data;
+      int tos;
+  
+      public CustomStack(int cap) {
+        data = new int[cap];
+        tos = -1;
+      }
+  
+      int size() {
+        return tos + 1;
+      }
+  
+      void display() {
+        for (int i = tos; i >= 0; i--) {
+          System.out.print(data[i] + " ");
+        }
+        System.out.println();
+      }
+  
+      void push(int val) {
+        if (tos == data.length - 1) {
+          int[] ndata = new int[2 * data.length];
+          for (int i = 0; i < data.length; i++) {
+            ndata[i] = data[i];
+          }
+          data = ndata;
+        }
+  
+        tos++;
+        data[tos] = val;
+      }
+  
+      int pop() {
+        if (tos == -1) {
+          System.out.println("Stack underflow");
+          return -1;
+        } else {
+          int val = data[tos];
+          tos--;
+          return val;
+        }
+      }
+  
+      int top() {
+        if (tos == -1) {
+          System.out.println("Stack underflow");
+          return -1;
+        } else {
+          return data[tos];
+        }
+      }
+    }
+  
+    public static void main(String[] args) throws Exception {
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      int n = Integer.parseInt(br.readLine());
+      CustomStack st = new CustomStack(n);
+  
+      String str = br.readLine();
+      while (str.equals("quit") == false) {
+        if (str.startsWith("push")) {
+          int val = Integer.parseInt(str.split(" ")[1]);
+          st.push(val);
+        } else if (str.startsWith("pop")) {
+          int val = st.pop();
+          if (val != -1) {
+            System.out.println(val);
+          }
+        } else if (str.startsWith("top")) {
+          int val = st.top();
+          if (val != -1) {
+            System.out.println(val);
+          }
+        } else if (str.startsWith("size")) {
+          System.out.println(st.size());
+        } else if (str.startsWith("display")) {
+          st.display();
+        }
+        str = br.readLine();
+      }
+    }
+  }
+  //Minimum Stack -1
+  //Minimum Stack -1
+  //Minimum Stack -1
+  
+  //do it yourself
+
+
+  //Normal Queue
+  //Normal Queue
+  //Normal Queue
+
+public class Normal_Queue {
+
+  public static class CustomQueue {
+    int[] data;
+    int front;
+    int size;
+
+    public CustomQueue(int cap) {
+      data = new int[cap];
+      front = 0;
+      size = 0;
+    }
+
+    int size() {
+
+      return size;
+    }
+
+    void display() {
+
+      for (int i = front; i < size; i++) {
+
+        System.out.print(data[i] + " ");
+      }
+      System.out.println();
+    }
+
+
+    void add(int val) {
+
+      if (size == data.length) { //if queue is already full
+        System.out.println("Queue overflow");
+      }
+      else
+      {
+        int rear = front + size;
+        data[rear] = val;
+        size++; //as a new values is added
+      }
+    }
+
+    int remove() {
+
+      if (size == 0) { //if queue is already empty
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        int val = data[front];
+        front++; //queue will be from front to size
+        size--; //as a value is removed
+
+        return val;
+      }
+    }
+
+    int peek() {
+
+      if (size == 0) { //if queue is empty
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        int val = data[front];
+        return val;
+      }
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int n = Integer.parseInt(br.readLine());
+    CustomQueue qu = new CustomQueue(n);
+
+    String str = br.readLine();
+    while (str.equals("quit") == false) {
+      if (str.startsWith("add")) {
+        int val = Integer.parseInt(str.split(" ")[1]);
+        qu.add(val);
+      } else if (str.startsWith("remove")) {
+        int val = qu.remove();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("peek")) {
+        int val = qu.peek();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("size")) {
+        System.out.println(qu.size());
+      } else if (str.startsWith("display")) {
+        qu.display();
+      }
+      str = br.readLine();
+    }
+  }
+}
+  //Dynamic queue
+  //Dynamic queue
+  //Dynamic queue
+  import java.io.*;
+
+import java.util.*;
+
+public class Main {
+
+  public static class CustomQueue {
+    int[] data;
+    int front;
+    int size;
+
+    public CustomQueue(int cap) {
+      data = new int[cap];
+      front = 0;
+      size = 0;
+    }
+
+    int size() {
+
+      return size;
+    }
+
+    void display() {
+
+      for (int i = 0; i < size; i++) {
+        int idx = (front + i) % data.length;
+        System.out.print(data[idx] + " ");
+      }
+      System.out.println();
+    }
+
+    void add(int val) {
+
+      if (size == data.length) {
+        System.out.println("Queue overflow");
+      } else {
+        int idx = (front + size) % data.length;
+        data[idx] = val;
+        size++;
+      }
+    }
+
+    int remove() {
+
+      if (size == 0) {
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        int val = data[front];
+
+        front = (front + 1) % data.length;
+        size--;
+
+        return val;
+      }
+    }
+
+    int peek() {
+
+      if (size == 0) {
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        int val = data[front];
+        return val;
+      }
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int n = Integer.parseInt(br.readLine());
+    CustomQueue qu = new CustomQueue(n);
+
+    String str = br.readLine();
+    while (str.equals("quit") == false) {
+      if (str.startsWith("add")) {
+        int val = Integer.parseInt(str.split(" ")[1]);
+        qu.add(val);
+      } else if (str.startsWith("remove")) {
+        int val = qu.remove();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("peek")) {
+        int val = qu.peek();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("size")) {
+        System.out.println(qu.size());
+      } else if (str.startsWith("display")) {
+        qu.display();
+      }
+      str = br.readLine();
+    }
+  }
+}
+}
+import java.io.*;
+
+import java.util.*;
+
+public class Main {
+
+  public static class LLToStackAdapter {
+    LinkedList< Integer> list;
+
+    public LLToStackAdapter() {
+      list = new LinkedList< >();
+    }
+
+    int size() {
+      return list.size();
+    }
+
+    void push(int val) {
+      list.addFirst(val);
+    }
+
+    int pop() {
+      if (size() == 0) {
+        System.out.println("Stack underflow");
+        return -1;
+      } else {
+        int val = list.getFirst();
+        list.removeFirst();
+        return val;
+      }
+    }
+
+    int top() {
+      if (size() == 0) {
+        System.out.println("Stack underflow");
+        return -1;
+      } else {
+        int val = list.getFirst();
+        return val;
+      }
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new    InputStreamReader(System.in));
+    LLToStackAdapter st = new LLToStackAdapter();
+
+    String str = br.readLine();
+    while (str.equals("quit") == false) {
+      if (str.startsWith("push")) {
+        int val = Integer.parseInt(str.split(" ")[1]);
+        st.push(val);
+      } else if (str.startsWith("pop")) {
+        int val = st.pop();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("top")) {
+        int val = st.top();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("size")) {
+        System.out.println(st.size());
+      }
+      str = br.readLine();
+    }
+  }
+}
+import java.io.*;
+
+import java.util.*;
+
+public class Main {
+
+  public static class LLToQueueAdapter {
+    LinkedList< Integer> list;
+
+    public LLToQueueAdapter() {
+      list = new LinkedList< >();
+    }
+
+    int size() {
+      return list.size();
+    }
+
+    void add(int val) {
+      list.addLast(val);
+    }
+
+    int remove() {
+      if (size() == 0) {
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        return list.removeFirst();
+      }
+    }
+
+    int peek() {
+      if (size() == 0) {
+        System.out.println("Queue underflow");
+        return -1;
+      } else {
+        return list.getFirst();
+      }
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    LLToQueueAdapter qu = new LLToQueueAdapter();
+
+    String str = br.readLine();
+    while (str.equals("quit") == false) {
+      if (str.startsWith("add")) {
+        int val = Integer.parseInt(str.split(" ")[1]);
+        qu.add(val);
+      } else if (str.startsWith("remove")) {
+        int val = qu.remove();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("peek")) {
+        int val = qu.peek();
+        if (val != -1) {
+          System.out.println(val);
+        }
+      } else if (str.startsWith("size")) {
+        System.out.println(qu.size());
+      }
+      str = br.readLine();
+    }
+  }
+}
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+import java.util.*;
+public class Generic_tree {
+    static Node root=null;
+    static Node root2=null;
+	public static void main(String[] args) {
+		int[] arr={10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
+        construct(arr);
+        // int[] arr2={10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
+        // construct2(arr2);
+// 		Display(root);
+// 		System.out.println(size(root));
+//         System.out.println(Max(root));
+//         System.out.println(height(root));
+//         levelorder(root);
+//         levelorderlinewize(root);
+//         levelorderlinewize22(root);// OUTPUT NOT MATCH CHECK IT
+//         levelorderlinewize33(root);
+//         levelorderlinewize44(root);
+//         Display(root);
+//         removeleaf(root);
+//         Display(root);
+//         Display(root);
+//         mirror(root);
+       // Display(root);
+        //   Node ans=gettail(root);
+        
+        //   System.out.println(ans.data);
+        //System.out.println(find(root,100));
+        // ArrayList<Integer> ans=Nodetorootpath(root,120);
+        // System.out.println(ans);
+       // System.out.println(LCA(root,60,50));
+       // System.out.println(DistancebtNode(root,50,120));
+    //   System.out.println(aresimilar(root,root2));
+    //   System.out.println(aremirror(root,root2));
+    //   System.out.println(issymmetric(root));
+        // Mutlisolver(root,3);
+        // System.out.println(size);
+        // System.out.println(min);
+        // System.out.println(max);
+        // System.out.println(height);
+        // predecessorandsuccessor(root,80);
+        // System.out.println(predecessor.data);
+        // System.out.println(successor.data);
+        // System.out.println(state);
+        ceilandfloor(root,60);
+        System.out.println(ceil);
+        System.out.println(floor);
+        //System.out.println(kthlargest(root,12));
+        // System.out.println(retsumcallmsst(root));
+        // int heightt=calldiareturnheight(root);
+        // System.out.println("Diameter ="+dia+" "+"Height"+heightt);
+        //iterativepreandpost(root);
+	}
+	public static class Node{
+        int data;
+        ArrayList<Node> children=new ArrayList<>();
+        Node(){}
+        Node(int data){
+            this.data=data;
+        }
+    }
+    public static class pair{
+        Node node;
+        int level;
+        pair(Node node,int level){
+            this.node=node;
+            this.level=level;
+        }
+    }
+    public static void construct(int[] arr){
+       
+		Stack<Node> st=new Stack<>();
+		for(int i=0;i<arr.length;i++){
+		    if(arr[i]==-1){
+		        st.pop();
+		    }else{
+		        Node t=new Node();
+		        t.data=arr[i];
+		        if(st.size()>0){
+		            st.peek().children.add(t);
+		        }else{
+		            root=t;
+		        }
+		        st.push(t);
+		    }
+		}
+    }
+    public static void construct2(int[] arr){
+       
+		Stack<Node> st=new Stack<>();
+		for(int i=0;i<arr.length;i++){
+		    if(arr[i]==-1){
+		        st.pop();
+		    }else{
+		        Node t=new Node();
+		        t.data=arr[i];
+		        if(st.size()>0){
+		            st.peek().children.add(t);
+		        }else{
+		            root2=t;
+		        }
+		        st.push(t);
+		    }
+		}
+    }
+	public static void Display(Node node){
+	    String str=node.data+"-->";
+	    for(Node child:node.children){
+	        str+=child.data+".";
+	    }
+	    str+=".";
+	    System.out.println(str);
+	    for(Node child:node.children){
+	        Display(child);
+	    }
+	}
+	public static int size(Node node){
+	    int s=0;
+	    for(Node child:node.children){
+	        int cs=size(child);
+	        s=s+cs;
+	    }
+	    s=s+1;
+	    return s;
+	}
+	public static int Max(Node node){
+	    int max=Integer.MIN_VALUE;
+	    for(Node child:node.children){
+	        int cm=Max(child);
+	        max=Math.max(cm,max);
+	    }
+	    max=Math.max(node.data,max);
+	    return max;
+	}
+	public static int height(Node node){
+	    int ht=-1;//height in edge
+	    //int ht=0;//in terms of node
+	    for(Node child:node.children){
+	        int ch=height(child);
+	        ht=Math.max(ch,ht);
+	    }
+	    ht+=1;
+	    return ht;
+	}
+	public static void levelorder(Node node){
+	    Queue<Node> q=new ArrayDeque<>();
+	    q.add(node);
+	    while(q.size()>0){
+	        node=q.remove();
+	        System.out.print(node.data+" ");
+	        for(Node child:node.children){
+	            q.add(child);
+	        }
+	    }
+	    System.out.println(".");
+	}
+	public static void levelorderlinewize(Node node){
+	    Queue<Node> mq=new ArrayDeque<>();
+	    mq.add(node);
+	    
+	    Queue<Node> cq=new ArrayDeque<>();
+	    while(mq.size()>0){
+	        node =mq.remove();
+	        System.out.print(node.data+" ");
+	        
+	        for(Node child:node.children){
+	            cq.add(child);
+	        }
+	        if(mq.size()==0){
+	            mq=cq;
+	            cq=new ArrayDeque<>();
+	            System.out.println();
+	        }
+	    }
+	}
+	public static void levelorderlinewize22(Node node){
+	    Stack<Node> ms=new Stack<>();
+	    ms.push(node);
+	    
+	    Stack<Node> cs=new Stack<>();
+	    int level=0;
+	    while(ms.size()>0){
+	        node =ms.pop();
+	        System.out.print(node.data+" ");
+	        
+	        if(level%2==0){
+	           for(int i=0;i<node.children.size();i++){
+	               Node child=node.children.get(i);
+	               cs.push(child);
+	           } 
+	        }else{
+	             for(int i=node.children.size()-1;i>=0;i--){
+	               Node child=node.children.get(i);
+	               cs.push(child);
+	           } 
+	        }
+	       
+	        if(ms.size()==0){
+	            ms=cs;
+	            cs=new Stack<>();
+	            level++;
+	            System.out.println();
+	        }
+	    }
+	}
+	public static void levelorderlinewize33(Node node){
+	    Queue<Node> mq=new ArrayDeque<>();
+	    mq.add(node);
+	    mq.add(new Node(-1));
+	    while(mq.size()>0){
+	        node=mq.remove();
+	        if(node.data!=-1){
+	            System.out.print(node.data+"  ");
+	            for(Node child:node.children){
+	                mq.add(child);
+	            }
+	        }else{
+	            if(mq.size()>0){
+	                mq.add(new Node(-1));
+	                System.out.println();
+	            }
+	        }
+	    }
+	}
+	public static void levelorderlinewize44(Node node){
+	    Queue<pair> mq=new ArrayDeque<>();
+	    mq.add(new pair(node,1));
+	    int level=1;
+	    while(mq.size()>0){
+	        pair p= mq.remove();
+	        if(p.level>level){
+	            level=p.level;
+	            System.out.println();
+	        }
+	        System.out.print(p.node.data+" ");
+	        for(Node child:p.node.children){
+	            pair cp=new pair(child,p.level+1);
+	            mq.add(cp);
+	        }
+	    }
+	}
+	public static void removeleaf(Node node){
+	    for(int i=node.children.size()-1;i>=0;i--){
+	        Node child =node.children.get(i);
+	        if(child.children.size()==0){
+	            node.children.remove(child);
+	        }
+	    }
+	    for(Node child:node.children){
+	        removeleaf(child);
+	    }
+	}
+	public static void mirror(Node node){
+	    for(Node child:node.children){
+	        mirror(child);
+	    }
+	    Collections.reverse(node.children);
+	}
+	public static boolean find(Node node,int d){
+	    if(node.data==d)return true;
+	    for(Node child:node.children){
+	        boolean fic=find(child,d);
+	        if(fic){
+	            return true;
+	        }
+	    }
+	    return false;
+	}
+	public static ArrayList<Integer> Nodetorootpath(Node node,int d){
+	    if(node.data==d){
+	        ArrayList<Integer> list=new ArrayList<>();
+	        list.add(node.data);
+	        return list;
+	    }
+	    for(Node child:node.children){
+	        ArrayList<Integer> ptc=Nodetorootpath(child,d);
+	        if(ptc.size()>0){
+	            ptc.add(node.data);
+	            return ptc;
+	        }
+	    }
+	    return new ArrayList<>();
+	}
+	public static int LCA(Node node,int d1,int d2){
+	    ArrayList<Integer> p1=Nodetorootpath(node,d1);
+	    ArrayList<Integer> p2=Nodetorootpath(node,d2);
+	    int i=p1.size()-1;
+	    int j=p2.size()-1;
+	    while(i>=0&&j>=0&&p1.get(i)==p2.get(j)){
+	        i--;j--;
+	    }
+	    i++;j++;
+	    return p1.get(i);
+	}
+	public static int DistancebtNode(Node node,int d1,int d2){
+	    ArrayList<Integer> p1=Nodetorootpath(node,d1);
+	    ArrayList<Integer> p2=Nodetorootpath(node,d2);
+	    int i=p1.size()-1;
+	    int j=p2.size()-1;
+	    while(i>=0&&j>=0&&p1.get(i)==p2.get(j)){
+	        i--;j--;
+	    }
+	    i++;
+	    j++;
+	    return i+j;
+	}
+	public static boolean aresimilar(Node n1,Node n2){
+	    if(n1.children.size()!=n2.children.size()){
+	        return false;
+	    }
+	    for(int i=0;i<n1.children.size();i++){
+	        Node c1=n1.children.get(i);
+	        Node c2=n2.children.get(i);
+	        if(aresimilar(c1,c2)==false){
+	            return false;
+	        }
+	    }
+	    return true;
+	}
+	public static boolean aremirror(Node n1,Node n2){
+	    if(n1.children.size()!=n2.children.size()){
+	        return false;
+	    }
+	    for(int i=0;i<n1.children.size();i++){
+	        int j=n1.children.size()-1-i;
+	        Node c1=n1.children.get(i);
+	        Node c2=n2.children.get(j);
+	        if(aremirror(c1,c2)==false){
+	            return false;
+	        }
+	    }
+	    return true;
+	}
+	public static boolean issymmetric(Node node){
+	    return aremirror(node,node);
+	}
+	//in this function all ans is finding 
+	static int size=0;
+	static int min=Integer.MAX_VALUE;
+	static int max=Integer.MIN_VALUE;
+	static int height=0;
+	public static void Mutlisolver(Node node,int dept){
+	    size++;
+	    min=Math.min(min,node.data);
+	    max=Math.max(max,node.data);
+	    height=Math.max(height,dept);
+	    
+	    for(Node child:node.children){
+	        Mutlisolver(child,dept+1);
+	    }
+	}
+	static Node predecessor;
+	static Node successor;
+	static int state;
+	static void predecessorandsuccessor(Node node,int d){
+	    if(state==0){
+	        if(node.data==d){
+	            state=1;
+	        }else{
+	            predecessor=node;
+	        }
+	    }else if(state==1){
+	        successor=node;
+	        state=2;
+	    }
+	    for(Node child:node.children){
+	        predecessorandsuccessor(child,d);
+	    }
+	}
+	//problem
+	static int ceil=Integer.MAX_VALUE;
+	static int floor=Integer.MIN_VALUE;
+	static void ceilandfloor(Node node,int d){
+	    if(node.data>d){
+	        if(node.data<ceil){
+	            ceil=node.data;
+	        }
+	    }
+	    if(node.data<d){
+	        if(node.data>floor){
+	            floor=node.data;
+	        }
+	    }
+	    for(Node child:node.children){
+	        ceilandfloor(child,d);
+	    }
+	}
+	static int kthlargest(Node node,int k){
+	    floor=Integer.MIN_VALUE;
+	    int factor=Integer.MAX_VALUE;
+	    for(int i=0;i<k;i++){
+	        ceilandfloor(node,factor);
+	        factor=floor;
+	        floor=Integer.MIN_VALUE;
+	    }
+	    return factor;
+	}
+	static int msh=0;
+	static int msn=Integer.MIN_VALUE;
+	static int retsumcallmsst(Node node){
+	    int sum=0;
+	    for(Node child:node.children){
+	        int csum=retsumcallmsst(child);
+	        sum+=csum;
+	    }
+	    sum+=node.data;
+	    if(sum>msn){
+	        msn=node.data;
+	        msn=sum;
+	    }
+	    return sum;
+	}
+	static int dia=0;
+	static int calldiareturnheight(Node node){
+	    int dch=-1;
+	    int sdch=-1;
+	    for(Node child:node.children){
+	        int ch=calldiareturnheight(child);
+	        if(ch>dch){
+	            sdch=dch;
+	            dch=ch;
+	        }else if(ch>sdch){
+	            sdch=ch;
+	        }
+	    }
+	    if(dch+sdch+2>dia){
+	        dia=dch+sdch+2;
+	    }
+	    dch+=1;
+	    return dch;
+	}
+	static void iterativepreandpost(Node node){
+	    Stack<pair> st=new Stack<>();
+	    st.push(new pair(node,-1));
+	    
+	    String pre="";
+	    String post="";
+	    while(st.size()>0){
+	        pair top=st.peek();
+	        if(top.level==-1){
+	            pre+=top.node.data+" ";
+	            top.level++;
+	        }else if(top.level==top.node.children.size()){
+	            post+=top.node.data+" ";
+	            st.pop();
+	        }else{
+	            pair cp=new pair(top.node.children.get(top.level),-1);
+	            st.push(cp);
+	            top.level++;
+	        }
+	    }
+	    System.out.println(pre);
+	    System.out.println(post);
+	}
+}
+
+//https://onlinegdb.com/pxYNT3YNB
+
+import java.util.*;
+public class Generictree {
+    static Node root=null;
+    static Node root2=null;
+    public static void main(String[] args) {
+        int[] arr={10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
+        construct(arr);
+        int[] arr2={10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
+        construct2(arr2);
+		Display(root);
+// 		System.out.println(size(root));
+//         System.out.println(Max(root));
+//         System.out.println(height(root));
+//         levelorder(root);
+//         levelorderlinewize(root);
+//         levelorderlinewize22(root);// OUTPUT NOT MATCH CHECK IT
+//         levelorderlinewize33(root);
+//         levelorderlinewize44(root);
+//         Display(root);
+//         removeleaf(root);
+//         Display(root);
+//         Display(root);
+//         mirror(root);
+       // Display(root);
+        //   Node ans=gettail(root);
+        
+        //   System.out.println(ans.data);
+        //System.out.println(find(root,100));
+        // ArrayList<Integer> ans=Nodetorootpath(root,120);
+        // System.out.println(ans);
+       // System.out.println(LCA(root,60,50));
+       // System.out.println(DistancebtNode(root,50,120));
+    //   System.out.println(aresimilar(root,root2));
+    //   System.out.println(aremirror(root,root2));
+        //System.out.println(issymmetric(root));
+        // Mutlisolver(root,3);
+        // System.out.println(size);
+        // System.out.println(min);
+        // System.out.println(max);
+        // System.out.println(height);
+        // predecessorandsuccessor(root,80);
+        // System.out.println(predecessor.data);
+        // System.out.println(successor.data);
+        // System.out.println(state);
+        // ceilandfloor(root,60);
+        // System.out.println(ceil);
+        // System.out.println(floor);
+        // System.out.println(kthlargest(root,12));
+        // System.out.println(retsumcallmsst(root));
+        // int heightt=calldiareturnheight(root);
+        // System.out.println("Diameter ="+dia+" "+"Height"+heightt);
+        // iterativepreandpost(root);
+
+    }
+    
+public static class Node{
+    int data;
+    ArrayList<Node> children=new ArrayList<>();
+    Node(){}
+    Node(int data){
+        this.data=data;
+    }
+}
+public static class pair{
+    Node node;
+    int level;
+    pair(Node node,int level){
+        this.node=node;
+        this.level=level;
+    }
+}
+public static void construct(int[] arr){
+    Stack<Node> st=new Stack<>();
+    for(int i=0;i<arr.length;i++){
+        if(arr[i]==-1){
+            st.pop();
+        }else{
+            Node t=new Node();
+            t.data=arr[i];
+            if(st.size()>0){
+                st.peek().children.add(t);
+            }else{
+                root=t;
+            }
+            st.push(t);
+        }
+    }
+}
+public static void construct2(int[] arr){
+    Stack<Node> st=new Stack<>();
+    for(int i=0;i<arr.length;i++){
+        if(arr[i]==-1){
+            st.pop();
+        }else{
+            Node t=new Node();
+            t.data=arr[i];
+            if(st.size()>0){
+                st.peek().children.add(t);
+            }else{
+                root2=t;
+            }
+            st.push(t);
+        }
+    }
+}
+public static void Display(Node node){
+    String str=node.data+"-->";
+    for(Node child:node.children){
+        str+=child.data+".";
+    }
+    str+=".";
+    System.out.println(str);
+    for(Node child:node.children){
+        Display(child);
+    }
+}
+public static int size(Node node){
+    int s=0;
+    for(Node child:node.children){
+        int cs=size(child);
+        s=s+cs;
+    }
+    s=s+1;
+    return s;
+}
+public static int Max(Node node){
+    int max=Integer.MIN_VALUE;
+    for(Node child:node.children){
+        int cm=Max(child);
+        max=Math.max(cm,max);
+    }
+    max=Math.max(node.data,max);
+    return max;
+}
+public static int height(Node node){
+    int ht=-1;//height in edge
+    //int ht=0;//in terms of node
+    for(Node child:node.children){
+        int ch=height(child);
+        ht=Math.max(ch,ht);
+    }
+    ht+=1;
+    return ht;
+}
+public static void levelorder(Node node){
+    Queue<Node> q=new ArrayDeque<>();
+    q.add(node);
+    while(q.size()>0){
+        node=q.remove();
+        System.out.print(node.data+" ");
+        for(Node child:node.children){
+            q.add(child);
+        }
+    }
+    System.out.println(".");
+}
+public static void levelorderlinewize(Node node){
+    Queue<Node> mq=new ArrayDeque<>();
+    mq.add(node);
+    
+    Queue<Node> cq=new ArrayDeque<>();
+    while(mq.size()>0){
+        node =mq.remove();
+        System.out.print(node.data+" ");
+        
+        for(Node child:node.children){
+            cq.add(child);
+        }
+        if(mq.size()==0){
+            mq=cq;
+            cq=new ArrayDeque<>();
+            System.out.println();
+        }
+    }
+}
+public static void levelorderlinewize22(Node node){
+    Stack<Node> ms=new Stack<>();
+    ms.push(node);
+    
+    Stack<Node> cs=new Stack<>();
+    int level=0;
+    while(ms.size()>0){
+        node =ms.pop();
+        System.out.print(node.data+" ");
+        
+        if(level%2==0){
+           for(int i=0;i<node.children.size();i++){
+               Node child=node.children.get(i);
+               cs.push(child);
+           } 
+        }else{
+             for(int i=node.children.size()-1;i>=0;i--){
+               Node child=node.children.get(i);
+               cs.push(child);
+           } 
+        }
+       
+        if(ms.size()==0){
+            ms=cs;
+            cs=new Stack<>();
+            level++;
+            System.out.println();
+        }
+    }
+}
+public static void levelorderlinewize33(Node node){
+    Queue<Node> mq=new ArrayDeque<>();
+    mq.add(node);
+    mq.add(new Node(-1));
+    while(mq.size()>0){
+        node=mq.remove();
+        if(node.data!=-1){
+            System.out.print(node.data+"  ");
+            for(Node child:node.children){
+                mq.add(child);
+            }
+        }else{
+            if(mq.size()>0){
+                mq.add(new Node(-1));
+                System.out.println();
+            }
+        }
+    }
+}
+public static void levelorderlinewize44(Node node){
+    Queue<pair> mq=new ArrayDeque<>();
+    mq.add(new pair(node,1));
+    int level=1;
+    while(mq.size()>0){
+        pair p= mq.remove();
+        if(p.level>level){
+            level=p.level;
+            System.out.println();
+        }
+        System.out.print(p.node.data+" ");
+        for(Node child:p.node.children){
+            pair cp=new pair(child,p.level+1);
+            mq.add(cp);
+        }
+    }
+}
+public static void removeleaf(Node node){
+    for(int i=node.children.size()-1;i>=0;i--){
+        Node child =node.children.get(i);
+        if(child.children.size()==0){
+            node.children.remove(child);
+        }
+    }
+    for(Node child:node.children){
+        removeleaf(child);
+    }
+}
+public static void mirror(Node node){
+    for(Node child:node.children){
+        mirror(child);
+    }
+    Collections.reverse(node.children);
+}
+public static boolean find(Node node,int d){
+    if(node.data==d)return true;
+    for(Node child:node.children){
+        boolean fic=find(child,d);
+        if(fic){
+            return true;
+        }
+    }
+    return false;
+}
+public static ArrayList<Integer> Nodetorootpath(Node node,int d){
+    if(node.data==d){
+        ArrayList<Integer> list=new ArrayList<>();
+        list.add(node.data);
+        return list;
+    }
+    for(Node child:node.children){
+        ArrayList<Integer> ptc=Nodetorootpath(child,d);
+        if(ptc.size()>0){
+            ptc.add(node.data);
+            return ptc;
+        }
+    }
+    return new ArrayList<>();
+}
+public static int LCA(Node node,int d1,int d2){
+    ArrayList<Integer> p1=Nodetorootpath(node,d1);
+    ArrayList<Integer> p2=Nodetorootpath(node,d2);
+    int i=p1.size()-1;
+    int j=p2.size()-1;
+    while(i>=0&&j>=0&&p1.get(i)==p2.get(j)){
+        i--;j--;
+    }
+    i++;j++;
+    return p1.get(i);
+}
+public static int DistancebtNode(Node node,int d1,int d2){
+    ArrayList<Integer> p1=Nodetorootpath(node,d1);
+    ArrayList<Integer> p2=Nodetorootpath(node,d2);
+    int i=p1.size()-1;
+    int j=p2.size()-1;
+    while(i>=0&&j>=0&&p1.get(i)==p2.get(j)){
+        i--;j--;
+    }
+    i++;
+    j++;
+    return i+j;
+}
+public static boolean aresimilar(Node n1,Node n2){
+    if(n1.children.size()!=n2.children.size()){
+        return false;
+    }
+    for(int i=0;i<n1.children.size();i++){
+        Node c1=n1.children.get(i);
+        Node c2=n2.children.get(i);
+        if(aresimilar(c1,c2)==false){
+            return false;
+        }
+    }
+    return true;
+}
+public static boolean aremirror(Node n1,Node n2){
+    if(n1.children.size()!=n2.children.size()){
+        return false;
+    }
+    for(int i=0;i<n1.children.size();i++){
+        int j=n1.children.size()-1-i;
+        Node c1=n1.children.get(i);
+        Node c2=n2.children.get(j);
+        if(aremirror(c1,c2)==false){
+            return false;
+        }
+    }
+    return true;
+}
+public static boolean issymmetric(Node node){
+    return aremirror(node,node);
+}
+//in this function all ans is finding 
+static int size=0;
+static int min=Integer.MAX_VALUE;
+static int max=Integer.MIN_VALUE;
+static int height=0;
+public static void Mutlisolver(Node node,int dept){
+    size++;
+    min=Math.min(min,node.data);
+    max=Math.max(max,node.data);
+    height=Math.max(height,dept);
+    
+    for(Node child:node.children){
+        Mutlisolver(child,dept+1);
+    }
+}
+static Node predecessor;
+static Node successor;
+static int state;
+static void predecessorandsuccessor(Node node,int d){
+    if(state==0){
+        if(node.data==d){
+            state=1;
+        }else{
+            predecessor=node;
+        }
+    }else if(state==1){
+        successor=node;
+        state=2;
+    }
+    for(Node child:node.children){
+        predecessorandsuccessor(child,d);
+    }
+}
+//problem
+static int ceil=Integer.MAX_VALUE;
+static int floor=Integer.MIN_VALUE;
+static void ceilandfloor(Node node,int d){
+    if(node.data>d){
+        if(node.data<ceil){
+            ceil=node.data;
+        }
+    }
+    if(node.data<d){
+        if(node.data>floor){
+            floor=node.data;
+        }
+    }
+    for(Node child:node.children){
+        ceilandfloor(child,d);
+    }
+}
+static int kthlargest(Node node,int k){
+    floor=Integer.MIN_VALUE;
+    int factor=Integer.MAX_VALUE;
+    for(int i=0;i<k;i++){
+        ceilandfloor(node,factor);
+        factor=floor;
+        floor=Integer.MIN_VALUE;
+    }
+    return factor;
+}
+static int msh=0;
+static int msn=Integer.MIN_VALUE;
+static int retsumcallmsst(Node node){
+    int sum=0;
+    for(Node child:node.children){
+        int csum=retsumcallmsst(child);
+        sum+=csum;
+    }
+    sum+=node.data;
+    if(sum>msn){
+        msn=node.data;
+        msn=sum;
+    }
+    return sum;
+}
+static int dia=0;
+static int calldiareturnheight(Node node){
+    int dch=-1;
+    int sdch=-1;
+    for(Node child:node.children){
+        int ch=calldiareturnheight(child);
+        if(ch>dch){
+            sdch=dch;
+            dch=ch;
+        }else if(ch>sdch){
+            sdch=ch;
+        }
+    }
+    if(dch+sdch+2>dia){
+        dia=dch+sdch+2;
+    }
+    dch+=1;
+    return dch;
+}
+static void iterativepreandpost(Node node){
+    Stack<pair> st=new Stack<>();
+    st.push(new pair(node,-1));
+    
+    String pre="";
+    String post="";
+    while(st.size()>0){
+        pair top=st.peek();
+        if(top.level==-1){
+            pre+=top.node.data+" ";
+            top.level++;
+        }else if(top.level==top.node.children.size()){
+            post+=top.node.data+" ";
+            st.pop();
+        }else{
+            pair cp=new pair(top.node.children.get(top.level),-1);
+            st.push(cp);
+            top.level++;
+        }
+    }
+    System.out.println(pre);
+    System.out.println(post);
+}
+
+}
+import java.util.*;
+public class Binarytree {
+    public static void main(String[] args) {
+         //BINARY TREE
+        //BINARY TREE
+        //BINARY TREE
+        //BINARY TREE
+        //BINARY TREE
+        Integer[] arr3={50,25,11,null,null,37,30,null,null,null,75,62,null,70,null,null,87,null,null};
+		constructTree(arr3);
+		//Display(root);
+		//System.out.println(Max(root));
+		//System.out.println(Heigth(root));
+		//System.out.println(sum(root));
+		//System.out.println(size(root));
+		//preorder(root);
+		//postorder(root);
+		//Levelorder(root);
+		//iterativepreandpost(root);
+		//path=new ArrayList<>();
+		//boolean anss=find(root,20);
+		//System.out.println(path);
+		//printkleveldown(root,2);
+		//printknodefar(root,30,2);//problem
+		//pathtoleaffromroot(root,"",80);//problem
+		//Node ans=createleftclone(root);
+		//Display(ans);
+		//Node ans2=transBack(ans);
+		//Display(ans2);
+		//printsignlechildnode(root,root);
+		//Node ans3=removesleaf(root);//problem
+		//System.out.println(Diameter(root));
+    }
+    //BINARY TREE
+//BINARY TREE
+//BINARY TREE
+//BINARY TREE
+//BINARY TREE
+public static class Node{
+    int data;
+    Node left;
+    Node right;
+    Node(int data,Node left,Node right){
+        this.data=data;
+        this.left=left;
+        this.right=right;
+    }
+}
+public static class pair{
+    Node node;
+    int state;
+    pair(Node node,int state){
+        this.node=node;
+        this.state=state;
+    }
+}
+static Node root;
+static void constructTree(Integer[] arr){
+    root=new Node(arr[0],null,null);
+    pair rtp=new pair(root,1);
+    Stack<pair> st=new Stack<>();
+    st.push(rtp);
+    
+    int index=0;
+    while(st.size()>0){
+        pair top=st.peek();
+        if(top.state==1){
+            index++;
+            if(arr[index]!=null){
+                top.node.left=new Node(arr[index],null,null);
+                pair lp=new pair(top.node.left,1);
+                st.push(lp);
+            }else{
+                top.node.left=null;
+            }
+           top.state++;
+        }else if(top.state==2){
+            index++;
+            if(arr[index]!=null){
+                top.node.right=new Node(arr[index],null,null);
+                pair rp=new pair(top.node.right,1);
+                st.push(rp);
+            }else{
+                top.node.right=null;
+            }
+            top.state++;
+        }else{
+            st.pop();
+        }
+    }
+}
+static void Display(Node node){
+    if(node==null)return;
+    String str="";
+    str+=node.left==null?".":node.left.data+" ";
+    str+="->"+node.data+"<-";
+    str+=node.right==null?".":node.right.data;
+    System.out.println(str);
+    Display(node.left);
+    Display(node.right);
+}
+static int Max(Node node){
+    if(node==null)return Integer.MIN_VALUE;
+    int lm=Max(node.left);
+    int rm=Max(node.right);
+    int tm=Math.max(node.data,Math.max(lm,rm));
+    return tm;
+}
+static int Heigth(Node node){
+    if(node==null)return -1;
+    //-1 in term of edge 0 in node
+    int lh=Heigth(node.left);
+    int rh=Heigth(node.right);
+    int th=Math.max(lh,rh)+1;
+    return th;
+}
+static int sum(Node node){
+    if(node==null)return 0;
+    int lsum=sum(node.left);
+    int rsum=sum(node.right);
+    int tsum=(lsum+rsum+node.data);
+    return tsum;
+}
+static int size(Node node){
+    if(node==null)return 0;
+    int ls=size(node.left);
+    int rs=size(node.right);
+    int ts=ls+rs+1;
+    return ts;
+}
+static void preorder(Node node){
+    if(node==null)return;
+    System.out.println(node.data);
+    preorder(node.left);
+    preorder(node.right);
+}
+static void postorder(Node node){
+    if(node==null)return;
+    
+    postorder(node.left);
+    postorder(node.right);
+    System.out.println(node.data);
+}
+static void Levelorder(Node node){
+    Queue<Node> mq=new ArrayDeque<>();
+    mq.add(node);
+    while(mq.size()>0){
+        int count=mq.size();
+        for(int i=0;i<count;i++)
+            node=mq.remove();
+            System.out.println(node.data);
+            if(node.left!=null){
+                mq.add(node.left);
+            }
+            if(node.right!=null){
+                mq.add(node.right);
+            }
+            System.out.println();
+    }
+}
+static void iterativepreandpost(Node node){
+    Stack<pair> st=new Stack<>();
+    pair rtp=new pair(node,1);
+    st.push(rtp);
+    
+    String pre="";
+    String post="";
+    String in="";
+    while(st.size()>0){
+        pair top=st.peek();
+        if(top.state==1){
+            pre+=top.node.data;
+            top.state++;
+            if(top.node.left!=null){
+                pair lp=new pair(top.node.left,1);
+                st.push(lp);
+            }
+        }else if(top.state==2){
+            in+=top.node.data;
+            top.state++;
+            if(top.node.right!=null){
+                pair rp=new pair(top.node.right,1);
+                st.push(rp);
+            }
+        }else{
+            post+=top.node.data;
+            st.pop();
+        }
+    }
+    System.out.println(pre);
+    System.out.println(post);
+    System.out.println(in);
+}
+static ArrayList<Integer> path;
+static boolean find(Node node,int data){
+    if(node==null)return false;
+    if(node.data==data){
+        path.add(node.data);
+        return true;
+    }
+    boolean filc=find(node.left,data);
+    if(filc){
+        path.add(node.data);
+        return true;
+    }
+    return false;
+}
+static void printkleveldown(Node node,int k){
+    if(node==null||k<0){
+        return;
+    }
+    if(k==0){
+        System.out.println(node.data);
+    }
+    printkleveldown(node.left,k-1);
+    printkleveldown(node.right,k-1);
+}
+static void printknodefar(Node node,int data,int k){
+    
+}
+static void pathtoleaffromroot(Node node,String path,int sum,int lo,int hi){
+    if(node==null)return;
+    if(node.left==null&&node.right==null){
+        sum+=node.data;
+        if(sum>=0&&sum<=hi){
+            System.out.println(path+node.data);
+        }
+        return;
+    }
+    pathtoleaffromroot(node.left,path+node.data,sum+node.data,lo,hi);
+    pathtoleaffromroot(node.left,path+node.data,sum+node.data,lo,hi);
+}
+static Node createleftclone(Node node){
+    if(node==null)return null;
+    
+    Node lcr=createleftclone(node.left);
+    Node rcr=createleftclone(node.right);
+    
+    Node nn=new Node(node.data,lcr,null);
+    node.left=nn;
+    node.right=rcr;
+    
+    return node;
+}
+static Node transBack(Node node){
+    if(node==null)return null;
+    Node lnn=transBack(node.left.left);
+    Node rnn=transBack(node.right);
+    
+    node.left=lnn;
+    node.right=rnn;
+    return node;
+}
+static void printsignlechildnode(Node node,Node parent){
+    if(node==null)return;
+    if(parent!=null&&parent.left==node&&parent.right==null){
+        System.out.println(node.data);
+    }else if(parent!=null&&parent.right==null&&parent.left==null){
+        System.out.println(node.data);
+    }
+    printsignlechildnode(node.left,node);
+    printsignlechildnode(node.right,node);
+}
+// 	static Node removesleaf(Node node){
+// 	    if(node==null)return null;
+    
+// 	    if(node.left==null&&node.right==null){
+// 	        return null;
+// 	    }
+// 	    Node.left=removesleaf(node.left);
+// 	    Node.right=removesleaf(node.right);
+// 	    return node;
+// 	}
+static int Diameter(Node node){
+    if(node==null)return 0;
+    int ld=Diameter(node.left);
+    int rd=Diameter(node.right);
+    int f=Heigth(node.left)+Heigth(node.right)+2;
+    int dia=Math.max(f,Math.max(ld,rd));
+    return dia;
+}
+// 	static Diapair Diameter2(Node node){
+// 	    if(node==null){
+// 	        Diapair bp=new Diapair();
+// 	        bp.ht=-1;
+// 	        bp.dia=0;
+// 	        return bp;
+// 	    }
+// 	    Diapair lp=new Diapair(node.left);
+// 	    Diapair rp=new Diapair(node.right);
+    
+// 	    Diapair mp=new Diapair();
+// 	    mp.ht=Math.max(lp.ht,rp.ht);
+// 	    int fes=lp.ht+rp.ht+2;
+// 	    mp.dia=Math.max(fes,Math.max(lp,rp.dia));
+    
+// 	    return mp;
+// 	}
+
+}
+
+public class BST {
+    public static void main(String[] args) {
+        int[] arr={12,25,37,30,40,50,60,62,70,75,87};
+        Node root=construct(arr,0,arr.length-1);
+        //Display(root);
+        //System.out.println(sum(root));
+        //System.out.println(size(root));
+        //System.out.println(max(root));
+        //System.out.println(Height(root));
+        // Node root2=AddNodeBST(root, 222);
+        // Display(root2);
+        // Node root2=RemoveNode(root, 62);//one value not delete 87
+        // Display(root2);
+        //System.out.println(bp.root.data+"-"+bp.size);
+        // rwsol(root);
+        // System.out.println(sum);
+        // Display(root);
+        //System.out.println(LCA(root, 25, 12));
+        //printinrange(root,30,59);
+        //targetspair(root,root,90);
+    }
+    static Node root;
+    static class Node{
+        int data;
+        Node left,right;
+        Node(){
+            left=null;
+            right=null;
+        }
+        Node(int data,Node left,Node right){
+            this.data=data;
+            this.left=left;
+            this.right=right;
+        }
+    }
+    static Node construct(int[] arr,int lo,int hi){
+        if(lo>hi){
+            return null;
+        }
+        int mid=(lo+hi)/2;
+        int data=arr[mid];
+        Node lc=construct(arr, lo, mid-1);
+        Node rc=construct(arr, mid+1,hi);
+
+        Node node=new Node(data,lc,rc);
+        return node;
+    }
+    static void Display(Node node){
+        if(node==null)return;
+    String str="";
+    str+=node.left==null?".":node.left.data+" ";
+    str+="->"+node.data+"<-";
+    str+=node.right==null?".":node.right.data;
+    System.out.println(str);
+    Display(node.left);
+    Display(node.right);
+    }
+    static int sum(Node node){
+        if(node==null)return 0;
+        int ls=sum(node.left);
+        int rs=sum(node.right);
+        int ts=ls+rs+node.data;
+        return ts;
+    }
+    static int size(Node node){
+        if(node==null)return 0;
+        int ls=size(node.left);
+        int rs=size(node.right);
+        int ts=ls+rs+1;//interm of edge
+        return ts;
+    }
+    static int max(Node node){
+        if(node==null)return 0;
+
+        int ml=max(node.left);
+        int mr=max(node.right);
+        int tm=Math.max(node.data,Math.max(ml, mr));
+        return tm;
+    }
+    static int Height(Node node){
+        if(node==null)return 0;
+
+        int lh=Height(node.left);
+        int rh=Height(node.right);
+        int th=Math.max(lh,rh)+1;
+        return th;
+    }
+    static Node AddNodeBST(Node node,int data){
+        if(node ==null){
+            return new Node(data,null,null);
+        }
+        if(data>node.data){
+            node.right=AddNodeBST(node.right, data);
+        }else if(data<node.data){
+            node.left=AddNodeBST(node.left, data);
+        }else{
+            //noting to do
+        }
+        return node;
+    }
+    static Node RemoveNode(Node node,int data){
+        if(node==null)return null;
+        if(data>node.data){
+            node.right=RemoveNode(node.right, data);
+        }else if(data<node.data){
+            node.left=RemoveNode(node.left, data);
+        }else{
+            if(node.left!=null&&node.right!=null){
+                int lmax=max(node.left);
+                node.data=lmax;
+                node.left=RemoveNode(node.left, lmax);
+                return node;
+            }else if(node.left!=null){
+                return node.left;
+            }else if(node.right!=null){
+                return node.right;
+            }else{
+                return null;
+            }
+        }
+        return node;
+    }
+    static int sum=0;
+    static void rwsol(Node node){
+        //replace with sum of l
+        if(node==null)return;
+        rwsol(node.right);
+        int od=node.data;
+        node.data=sum;
+        sum+=od;
+        rwsol(node.left);
+    }
+    static int LCA(Node node,int d1,int d2){
+        if(d1<node.data&&d2<node.data){
+            return LCA(node.left, d1, d2);
+        }else if(d1>node.data&&d2>node.data){
+            return LCA(node.right, d1, d2);
+        }else{
+            return node.data;
+        }
+    }
+    static void printinrange(Node node,int d1,int d2){
+        if(node==null)return;
+        if(d1<node.data&&d2<node.data){
+            printinrange(node.left, d1, d2);
+        }else if(d1>node.data&&d2>node.data){
+            printinrange(node.right, d1, d2);
+        }else{
+            printinrange(node.left, d1, d2);
+            System.out.println(node.data);
+            printinrange(node.right, d1, d2);
+        }
+    }
+    static void targetspair(Node root,Node node,int tar){
+        if(node==null)return;
+        targetspair(node,node.left, tar);
+        int comp=tar-node.data;
+        if(node.data<comp){
+            if(find(root,comp)==true){
+                System.out.println(node.data+" "+comp);
+            }
+        }
+        targetspair(root, node.right, tar);
+    }
+    static boolean find(Node node,int data){
+        if(node==null)return false;
+        if(data>node.data){
+            return find(node.right, data);
+        }else if(data<node.data){
+            return find(node.left, data);
+        }else{
+            return true;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    static int tilt=0;
+    static int tilt(Node node){
+        if(node==null)return 0;
+        int ls=tilt(node.left);
+        int rs=tilt(node.right);
+        int ltilt=Math.abs(ls-rs);
+        tilt+=ltilt;
+        int ts=ls+rs+node.data;
+        return ts;
+    }
+    static class BSTpair{
+        boolean isbst;
+        int min;
+        int max;
+    }
+    static BSTpair isBST(Node node){
+        if(node==null){
+            BSTpair bp=new BSTpair();
+            bp.min=Integer.MAX_VALUE;
+            bp.max=Integer.MIN_VALUE;
+            bp.isbst=true;
+            return bp;
+        }
+        BSTpair lp=isBST(node.left);
+        BSTpair rp=isBST(node.right);
+
+        BSTpair mp=new BSTpair();
+        mp.isbst=lp.isbst&&rp.isbst&&(node.data>=lp.max&&node.data<=rp.min);
+        mp.min=Math.min(node.data,Math.min(lp.min,rp.min));
+        mp.max=Math.max(node.data,Math.max(lp.max,rp.max));
+
+        return mp;
+    }
+    static boolean isbal=true;
+    static int isbalance(Node node){
+        if(node==null)return 0;
+        int lh=isbalance(node.left);
+        int rh=isbalance(node.right);
+        int gap=Math.abs(lh-rh);
+        if(gap>1){
+            isbal=false;
+        }
+        int th=Math.max(lh,rh)+1;
+        return th;
+    }
+    static class Balpair{
+        int ht;
+        boolean isBal;
+    }
+    static Balpair isbalance2(Node node){
+        if(node==null){
+            Balpair bp=new Balpair();
+            bp.ht=0;
+            bp.isBal=true;
+            return bp;
+        }
+        Balpair lp= isbalance2(node.left);
+        Balpair rp= isbalance2(node.right);
+
+        Balpair mp=new Balpair();
+        mp.isBal=Math.abs(lp.ht-rp.ht)<=1&&lp.isBal&&rp.isBal;
+        mp.ht=Math.max(lp.ht,rp.ht)+1;
+
+        return mp;
+    }
+    static class BSTpair22{
+        boolean isbst;
+        int min;
+        int max;
+        Node root;
+        int size;
+    }
+    static BSTpair22 largestsubtree(Node node){
+        if(node==null){
+            BSTpair22 bp=new BSTpair22();
+            bp.min=Integer.MAX_VALUE;
+            bp.max=Integer.MIN_VALUE;
+            bp.isbst=true;
+            bp.root=null;
+            bp.size=0;
+            return bp;
+        }
+        BSTpair22 lp=largestsubtree(node.left);
+        BSTpair22 rp=largestsubtree(node.right);
+
+        BSTpair22 mp=new BSTpair22();
+        mp.isbst=lp.isbst&&rp.isbst&&(node.data>=lp.max&&node.data<=rp.min);
+        mp.min=Math.min(node.data,Math.min(lp.min,rp.min));
+        mp.max=Math.max(node.data,Math.max(lp.max,rp.max));
+        if(mp.isbst){
+            mp.root=node;
+            mp.size=lp.size+rp.size+1;
+        }else if(lp.size>rp.size){
+            mp.root=lp.root;
+            mp.size=lp.size;
+        }else{
+            mp.root=rp.root;
+            mp.size=rp.size;
+        }
+        return mp;
+    }
+
+
+}
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||
+import java.util.*;
+import java.io.*;
+public class Hashmap {
+    public static void main(String[] args) {
+        IntroHashMap();
+    }
+    //hashmap
+    public static void IntroHashMap(){
+        HashMap<String,Integer> hm=new HashMap<>();
+        hm.put("value 1", 123);
+        hm.put("value 2", 22);
+        hm.put("value 3", 33);
+        hm.put("value 4", 55);
+        hm.put("value 5", 77);
+        hm.put("value 6", 99);
+        System.out.println(hm);
+        System.out.println(hm.get("value 1"));
+        System.out.println(hm.containsKey("value 3"));
+
+        Set<String> key=hm.keySet();
+        System.out.println(key);
+
+        for(String k:key){
+            Integer val=hm.get(k);
+            System.out.println(key+"--"+val);
+        }
+    }
+    public static void High_Freq(){
+        //highest frequency character
+        Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+
+        HashMap<Character,Integer> h=new HashMap<>();
+        for(int i=0;i<str.length();i++){
+            char c1=str.charAt(i);
+            if(h.containsKey(c1)){
+                int of=h.get(c1);
+                int nf=of+1;
+                h.put(c1, nf);
+            }else{
+                h.put(c1, 1);
+            }
+        }
+        char mfc=str.charAt(0);
+        for(Character key:h.keySet()){
+            if(h.get(key)>h.get(mfc)){
+                mfc=key;
+            }
+        }
+        System.out.println(mfc);
+    }
+    public static void getcomm_I(){
+        Scanner scn = new Scanner(System.in);
+        int n1 = scn.nextInt();
+        int[]a1 = new int[n1];
+        for (int i = 0; i<n1;i++){
+            a1[i]=scn.nextInt();
+        }
+        HashMap<Integer,Integer> hm = new HashMap<>();
+        for (int val : a1)
+        {
+          if (hm.containsKey(val)) {
+              int old = hm.get(val);
+              int now = old + 1;
+              hm.put(val, now);
+            }
+            else
+            {
+              hm.put(val, 1);
+            }
+          }
+    
+        for (int val : a1) {
+        if (hm.containsKey(val))
+          {
+            System.out.println(val);
+            hm.remove(val);
+          }
+        }
+    
+    }
+    public static void getcomm_II(){
+        Scanner scn = new Scanner(System.in);
+        int n1 = scn.nextInt();
+        int[]a1 = new int[n1];
+        for (int i = 0; i < n1; i++)
+        {
+          a1[i] = scn.nextInt();
+        }
+        int n2 = scn.nextInt();
+        int[]a2 = new int[n2];
+        for (int i = 0; i < n2; i++)
+        {
+          a2[i] = scn.nextInt();
+        }
+    
+        HashMap< Integer, Integer> hm = new HashMap();
+        for (int val : a1)
+        {
+          if (hm.containsKey(val)) {
+            int old = hm.get(val);
+            int now = old + 1;
+            hm.put(val, now);
+          }
+          else {
+            hm.put(val, 1);
+          }
+        }
+        for (int val : a2) {
+          if (hm.containsKey(val)) {
+            System.out.println(val);
+            int old = hm.get(val);
+            if (old > 1)
+              hm.put(val, old - 1);
+            else
+              hm.remove(val);
+          }
+        }
+    }
+    public static void longest_con_seq(){
+        //Longest consecutive sequence
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        int[]a = new int[n];
+        for (int i = 0; i < n; i++) {
+          a[i] = scn.nextInt();
+        }
+        HashMap < Integer, Boolean> hm = new HashMap<>();
+        for (int val : a) {
+          hm.put(val, true);
+        }
+        for (int val : a) {
+          if (hm.containsKey(val - 1)) {
+            hm.put(val, false);
+          }
+        }
+        int mh = 0;
+        int mval = 0;
+        for (int val : a) {
+          if (hm.get(val) == true)
+          {
+            int lh = 1;
+            int lval = val;
+            while (hm.containsKey(lval + lh)) {
+              lh++;
+            }
+            if (lh > mh) {
+              mh = lh;
+              mval = val;
+            }
+          }
+        }
+        for (int i = 0; i < mh; i++)
+        {
+          System.out.println(mval + i);
+    
+        }
+    }
+    public static void Intro_Heap(){
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        int[] ranks = {22, 99, 3, 11, 88, 4, 1};
+        for (int val : ranks) {
+          pq.add(val);
+        }
+        while (pq.size() > 0) {
+          System.out.println(pq.peek());
+          pq.remove();
+        }
+    }
+    public static void K_larg_ele()throws IOException{
+        //K Largest Elements
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        int[] arr = new int[n];
+    
+        for (int i = 0; i < n; i++) {
+          arr[i] = Integer.parseInt(br.readLine());
+        }
+    
+        int k = Integer.parseInt(br.readLine());
+    
+        PriorityQueue<Integer> pq = new PriorityQueue <>();
+        for (int i = 0; i < arr.length; i++) {
+          if (i < k) {
+            pq.add(arr[i]);
+          } else {
+            if (arr[i] > pq.peek()) {
+              pq.remove();
+              pq.add(arr[i]);
+            }
+          }
+        }
+    
+        while (pq.size() > 0) {
+          System.out.println(pq.remove());
+        }
+    }
+    public static void sortksortedarr(){
+        //Sort a K Sorted Array
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int n = Integer.parseInt(br.readLine());
+    int[] arr = new int[n];
+
+    for (int i = 0; i < n; i++) {
+      arr[i] = Integer.parseInt(br.readLine());
+    }
+
+    int k = Integer.parseInt(br.readLine());
+
+    // Add first k+1 elements to the Priority Queue
+    PriorityQueue< Integer> pq = new PriorityQueue<>();
+    for (int i = 0; i <= k; i++) {
+      pq.add(arr[i]);
+    }
+
+    //Filter out the smallest element and move funnel to the next positions
+    for (int i = k + 1; i < arr.length; i++) {
+      System.out.println(pq.remove());
+      pq.add(arr[i]);
+    }
+
+    //Array is completely traversed, empty the funnel now
+    while (pq.size() > 0) {
+      System.out.println(pq.remove());
+    }
+    }
+    public static void Median_p_q(){
+        //Median Priority Queue
+
+// public class Main {
+
+//   public static class MedianPriorityQueue {
+//     PriorityQueue< Integer> left;
+//     PriorityQueue< Integer> right;
+
+//     public MedianPriorityQueue() {
+//       left = new PriorityQueue<>(Collections.reverseOrder());
+//       right = new PriorityQueue<>();
+//     }
+
+//     public void add(int val) {
+//       if (right.size() > 0 && val > right.peek()) {
+//         right.add(val);
+//       } else {
+//         left.add(val);
+//       }
+
+//       handleBalance();
+//     }
+
+//     private void handleBalance() {
+//       if (left.size() - right.size() == 2) {
+//         right.add(left.remove());
+//       } else if (right.size() - left.size() == 2) {
+//         left.add(right.remove());
+//       }
+//     }
+
+//     public int remove() {
+//       if (this.size() == 0) {
+//         System.out.println("Underflow");
+//         return -1;
+//       } else if (left.size() >= right.size()) {
+//         return left.remove();
+//       } else {
+//         return right.remove();
+//       }
+//     }
+
+//     public int peek() {
+//       if (this.size() == 0) {
+//         System.out.println("Underflow");
+//         return -1;
+//       } else if (left.size() >= right.size()) {
+//         return left.peek();
+//       } else {
+//         return right.peek();
+//       }
+//     }
+
+//     public int size() {
+//       return left.size() + right.size();
+//     }
+//   }
+
+//   public static void main(String[] args) throws Exception {
+//     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//     MedianPriorityQueue qu = new MedianPriorityQueue();
+
+//     String str = br.readLine();
+//     while (str.equals("quit") == false) {
+//       if (str.startsWith("add")) {
+//         int val = Integer.parseInt(str.split(" ")[1]);
+//         qu.add(val);
+//       } else if (str.startsWith("remove")) {
+//         int val = qu.remove();
+//         if (val != -1) {
+//           System.out.println(val);
+//         }
+//       } else if (str.startsWith("peek")) {
+//         int val = qu.peek();
+//         if (val != -1) {
+//           System.out.println(val);
+//         }
+//       } else if (str.startsWith("size")) {
+//         System.out.println(qu.size());
+//       }
+//       str = br.readLine();
+//     }
+//   }
+// }
+
+}
+public static void ksortedlist(){
+    //Merge K sorted lists
+    
+// public class Main {
+
+//     public static class Pair implements Comparable< Pair> {
+//       int li;
+//       int di;
+//       int data;
+
+//       Pair(int li, int di, int data) {
+//         this.li = li;
+//         this.di = di;
+//         this.data = data;
+//       }
+
+//       public int compareTo(Pair o) {
+//         return this.data - o.data;
+//       }
+//     }
+
+//     public static ArrayList< Integer> mergeKSortedLists(ArrayList< ArrayList< Integer>> lists) {
+//       ArrayList< Integer> rv = new ArrayList<>();
+
+//       PriorityQueue< Pair> pq = new PriorityQueue<>();
+//       for (int i = 0; i < lists.size(); i++) {
+//         Pair p = new Pair(i, 0, lists.get(i).get(0));
+//         pq.add(p);
+//       }
+
+//       while (pq.size() > 0) {
+//         Pair p = pq.remove();
+//         rv.add(p.data);
+//         p.di++;
+
+//         if (p.di < lists.get(p.li).size()) {
+//           p.data = lists.get(p.li).get(p.di);
+//           pq.add(p);
+//         }
+//       }
+
+//       return rv;
+//     }
+
+//     public static void main(String[] args) throws Exception {
+//       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//       int k = Integer.parseInt(br.readLine());
+//       ArrayList< ArrayList< Integer>> lists = new ArrayList<>();
+//       for (int i = 0; i < k; i++) {
+//         ArrayList< Integer> list = new ArrayList<>();
+
+//         int n = Integer.parseInt(br.readLine());
+//         String[] elements = br.readLine().split(" ");
+//         for (int j = 0; j < n; j++) {
+//           list.add(Integer.parseInt(elements[j]));
+//         }
+
+//         lists.add(list);
+//       }
+
+//       ArrayList< Integer> mlist = mergeKSortedLists(lists);
+//       for (int val : mlist) {
+//         System.out.print(val + " ");
+//       }
+//       System.out.println();
+//     }
+
+//   }
+
+}
+
+    //priorityqueue using heap
+    class MyPriorityQueue{
+        ArrayList<Integer> data;
+        MyPriorityQueue(){
+            data=new ArrayList<>();
+        }
+        public int size(){
+            return data.size();
+        }
+        public int peek(){
+            if(this.size()==0){
+                System.out.println("Empty");
+                return -1;
+            }
+            return data.get(0);
+        }
+        public void add(int val){
+            data.add(val);
+            unheapify(data.size()-1);
+        }
+        private void unheapify(int i){
+            if(i==0)return;
+            int pi=(i-1)/2;
+            if(data.get(i)<data.get(pi)){
+                swap(i,pi);
+                unheapify(pi);
+            }
+        }
+        private void swap(int i,int j){
+            int ith=data.get(i);
+            int jth=data.get(j);
+            data.set(i, jth);
+            data.set(j, ith);
+        }
+
+        public int remove(){
+            if(this.size()==0){
+                System.out.println("Empty");
+                return -1;
+            }
+            swap(0,data.size()-1);
+            int val=data.remove(data.size()-1);
+            downheapify(0);
+            return val;
+        }
+        private void downheapify(int pi){
+            int mini=pi;
+            int li=2*pi+1;
+            if(li<data.size()&&data.get(li)<data.get(mini)){
+                mini=li;
+            }
+            int ri=2*pi+2;
+            if(ri<data.size()&&data.get(ri)<data.get(mini)){
+                mini=ri;
+            }
+            if(mini!=pi){
+                swap(pi,mini);
+                downheapify(mini);
+            }
+        }
+    }
+
+}
+|||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||
+public class Graph {
+    public static void main(String[] args) {
+        
+    }
+    public static void Intro_graph(){
+      
+        
+        public class Main {
+          static class Edge {
+            int src;
+            int nbr;
+            int wt;
+        
+            Edge(int src, int nbr, int wt) {
+              this.src = src;
+              this.nbr = nbr;
+              this.wt = wt;
+            }
+          }
+          public static void main(String[] args) throws Exception {
+            int vertices = 7; //0 1 2 3 4 5 6
+            ArrayList[] graph = new ArrayList[7];
+        
+            //This is as per the diagram (fig-13)
+        
+            graph[0].add(new Edge(0, 1, 10));
+            graph[0].add(new Edge(0, 2, 20));
+        
+            graph[0].add(new Edge(1, 0, 10));
+            graph[0].add(new Edge(1, 2, 30));
+            graph[0].add(new Edge(1, 3, 50));
+            graph[0].add(new Edge(1, 4, 40));
+        
+            graph[0].add(new Edge(2, 0, 20));
+            graph[0].add(new Edge(2, 1, 30));
+            graph[0].add(new Edge(2, 5, 80));
+        
+            graph[0].add(new Edge(3, 1, 50));
+            graph[0].add(new Edge(3, 5, 70));
+        
+            graph[0].add(new Edge(4, 1, 40));
+            graph[0].add(new Edge(4, 2, 80));
+            graph[0].add(new Edge(4, 5, 60));
+        
+            graph[0].add(new Edge(5, 3, 70));
+            graph[0].add(new Edge(5, 4, 60));
+        
+          }
+        }
+    }
+    public static void iscyclicgraph(){
+        //Is Graph Cyclic
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    boolean[] visited = new boolean[vtces];
+    int[] parent = new int[vtces];
+    Arrays.fill(parent, -1); // Initially, all nodes will have parent -1.
+
+    for (int v = 0; v < vtces; v++) {
+      if (visited[v] == false) {
+        boolean cyclic = IsCyclic(graph, v, visited, parent);
+        if (cyclic) {
+          System.out.println(true);
+          return;
+        }
+      }
+    }
+
+    System.out.println(false);
+  }
+
+  public static boolean IsCyclic(ArrayList< Edge>[] graph, int src,
+                                 boolean[] visited, int[] parent) {
+    ArrayDeque< Integer> queue = new ArrayDeque<>();
+
+    queue.add(src);
+    visited[src] = true;
+
+    while (queue.size() > 0) {
+      int rem = queue.remove();
+
+      for (Edge e : graph[rem]) {
+
+        if (visited[e.nbr] && parent[rem] != e.nbr) {
+          // e.nbr is visited already & it is not the parent of rem.
+          // Hence, there exists a cycle
+          return true;
+        }
+
+        if (!visited[e.nbr]) {
+          queue.add(e.nbr);
+          visited[e.nbr] = true;
+          parent[e.nbr] = rem;
+        }
+      }
+    }
+
+    return false;
+  }
+
+}
+    }
+    public static void biprate(){
+        //Is Graph Bipartite
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    HashMap< Integer, Integer> visited = new HashMap<>();
+    for (int v = 0; v < vtces; v++) {
+      if (!visited.containsKey(v)) {
+        boolean bip = IsBipartite(graph, v, visited);
+        if (!bip) {
+          System.out.println(false);
+          return;
+        }
+      }
+    }
+
+    System.out.println(true);
+  }
+
+  static class Pair {
+    int vtx;
+    int level;
+
+    Pair(int vtx, int level) {
+      this.vtx = vtx;
+      this.level = level;
+    }
+  }
+
+  public static boolean IsBipartite(ArrayList< Edge>[] graph,
+                                    int src, HashMap< Integer, Integer> visited) {
+    ArrayDeque< Pair> queue = new ArrayDeque<>();
+    queue.add(new Pair(src, 0));
+    while (queue.size() > 0) {
+      Pair rem = queue.remove();
+
+      if (visited.containsKey(rem.vtx)) {
+        if (visited.get(rem.vtx) % 2 != rem.level % 2) {
+          return false;
+        }
+      } else {
+        visited.put(rem.vtx, rem.level);
+      }
+
+      for (Edge e : graph[rem.vtx]) {
+        if (!visited.containsKey(e.nbr)) {
+          queue.add(new Pair(e.nbr, rem.level + 1));
+        }
+      }
+    }
+
+    return true;
+  }
+
+}
+    }
+    public static void infection(){
+        //Spread of Infection
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+
+    Edge(int src, int nbr) {
+      this.src = src;
+      this.nbr = nbr;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      graph[v1].add(new Edge(v1, v2));
+      graph[v2].add(new Edge(v2, v1));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+    int t = Integer.parseInt(br.readLine());
+    int count = 0;
+
+    ArrayDeque queue = new ArrayDeque<>();
+    queue.add(new Pair(src, 1));
+    int[] visited = new int[vtces];
+    while (queue.size() > 0) {
+      Pair rem = queue.remove();
+
+      if (visited[rem.v] > 0) {
+        continue;
+      }
+      visited[rem.v] = rem.time;
+      if (rem.time > t) {
+        break;
+      } else {
+        count++;
+      }
+
+      for (Edge e : graph[rem.v]) {
+        if (visited[e.nbr] == 0) {
+          queue.add(new Pair(e.nbr, rem.time + 1));
+        }
+      }
+    }
+
+    System.out.println(count);
+  }
+
+  static class Pair {
+    int v;
+    int time;
+
+    Pair(int v, int time) {
+      this.v = v;
+      this.time = time;
+    }
+  }
+}
+    }
+    public static void weight(){
+        //Shortest path in weights
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+    boolean[] visited = new boolean[vtces];
+
+    PriorityQueue< Pair> queue = new PriorityQueue<>();
+    queue.add(new Pair(src, src + "", 0));
+
+    while (queue.size() > 0) {
+      Pair rem = queue.remove();
+
+      if (visited[rem.v] == true) {
+        continue;
+      }
+      visited[rem.v] = true;
+      System.out.println(rem.v + " via " + rem.psf
+                         + " @ " + rem.wsf);
+
+      for (Edge e : graph[rem.v]) {
+        if (visited[e.nbr] == false) {
+          queue.add(new Pair(e.nbr,
+                             rem.psf + e.nbr, rem.wsf + e.wt));
+        }
+      }
+    }
+  }
+
+  static class Pair implements Comparable< Pair> {
+    int v;
+    String psf;
+    int wsf;
+
+    Pair(int v, String psf, int wsf) {
+      this.v = v;
+      this.psf = psf;
+      this.wsf = wsf;
+    }
+
+    public int compareTo(Pair o) {
+      return this.wsf - o.wsf;
+    }
+  }
+}
+    }
+    public static void connected(){
+        //IS GRAPH CONNECTED
+
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    ArrayList< ArrayList< Integer>> comps = new ArrayList< >();
+
+
+    boolean[]visited = new boolean[vtces];
+    for (int v = 0; v < vtces; v++) {
+      if (visited[v] == false) {
+        ArrayList< Integer> comp = new ArrayList< >();
+        drawTree(graph, v, comp, visited);
+        comps.add(comp);
+      }
+    }
+
+    System.out.println(comps.size() == 1); //1
+
+  }
+  public static void drawTree(ArrayList< Edge>[]graph, int src, ArrayList< Integer> comp, boolean[]visited) {
+    visited[src] = true;
+    comp.add(src);
+    for (Edge e : graph[src]) {
+      if (visited[e.nbr] == false) {
+        drawTree(graph, e.nbr, comp, visited);
+      }
+    }
+  }
+
+}
+    }
+    public static void islands(){
+        //NUMBER OF ISLANDS
+public class Main {
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int m = Integer.parseInt(br.readLine());
+    int n = Integer.parseInt(br.readLine());
+    int[][] arr = new int[m][n];
+
+    for (int i = 0; i < arr.length; i++) {
+      String parts = br.readLine();
+      for (int j = 0; j < arr[0].length; j++) {
+        arr[i][j] = Integer.parseInt(parts.split(" ")[j]);
+      }
+    }
+
+    boolean[][]visited = new boolean[arr.length][arr[0].length]; //1
+    int count = 0;
+    for (int i = 0; i < arr.length; i++) {    //2
+      for (int j = 0; j < arr[0].length; j++) {
+        if (arr[i][j] == 0 && visited[i][j] == false) {
+          drawTreeforComponent(arr, i, j, visited);
+          count++;
+        }
+      }
+    }
+    System.out.println(count); //3
+  }
+
+  public static void drawTreeforComponent(int[][]arr, int i, int j, boolean[][]visited) {
+    if (i < 0 || j < 0 || i >= arr.length || j >= arr[0].length || arr[i][j] == 1 || visited[i][j] == true) { //4
+      return;
+    }
+    visited[i][j] = true; //5
+    drawTreeforComponent(arr, i - 1, j, visited); //6
+    drawTreeforComponent(arr, i, j + 1, visited);
+    drawTreeforComponent(arr, i, j - 1, visited);
+    drawTreeforComponent(arr, i + 1, j, visited);
+  }
+
+}
+    }
+    public static void perfect_friend(){
+        //Perfect Friends
+
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+
+    Edge(int src, int nbr) {
+      this.src = src;
+      this.nbr = nbr;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int n = Integer.parseInt(br.readLine());
+    int k = Integer.parseInt(br.readLine());
+
+    int vtces = n;
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = k;
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      graph[v1].add(new Edge(v1, v2));
+      graph[v2].add(new Edge(v2, v1));
+    }
+
+    boolean[] visited = new boolean[vtces];
+    ArrayList< ArrayList< Integer>> comps = new ArrayList< >();
+    for (int v = 0; v < vtces; v++) {
+      if (visited[v] == false) {
+        ArrayList< Integer> comp = new ArrayList< >();
+        gcc(graph, v, visited, comp);
+        comps.add(comp);
+      }
+    }
+
+    int count = 0;
+    for (int i = 0; i < comps.size(); i++) {
+      for (int j = i + 1; j < comps.size(); j++) {
+        count += comps.get(i).size() * comps.get(j).size();
+      }
+    }
+    System.out.println(count);
+  }
+
+  public static void gcc(ArrayList< Edge>[] graph, int src, boolean[] visited, ArrayList< Integer>
+                         comp) {
+    comp.add(src);
+    visited[src] = true;
+    for (Edge e : graph[src]) {
+      if (!visited[e.nbr]) {
+        gcc(graph, e.nbr, visited, comp);
+      }
+    }
+  }
+}
+    }
+    public static void min_wire(){
+        //Min. wire required to connect all pcs
+
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = 0;
+    PriorityQueue< Pair> queue = new PriorityQueue<>();
+    queue.add(new Pair(src, -1, 0));
+    Integer[] visited = new Integer[vtces];
+    while (queue.size() > 0) {
+      Pair rem = queue.remove();
+
+      if (visited[rem.v] != null) {
+        continue;
+      }
+      visited[rem.v] = rem.p;
+      if (rem.p != -1) {
+        System.out.println("[" + rem.v + "-" +
+                           rem.p + "@" + rem.wt + "]");
+      }
+
+      for (Edge e : graph[rem.v]) {
+        if (visited[e.nbr] == null) {
+          queue.add(new Pair(e.nbr, rem.v, e.wt));
+        }
+      }
+    }
+  }
+
+  static class Pair implements Comparable< Pair> {
+    Integer v;
+    Integer p;
+    int wt;
+
+    Pair(Integer v, Integer p, int wt) {
+      this.v = v;
+      this.p = p;
+      this.wt = wt;
+    }
+
+    public int compareTo(Pair o) {
+      return this.wt - o.wt;
+    }
+  }
+}
+    }
+    public static void path_cycle(){
+        //Hamiltonian Path and Cycle
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+
+    HashSet< Integer> visited = new HashSet< >();
+    hamiltonianPathAndCycle(graph, src, src, visited, src + "");
+  }
+
+  public static void hamiltonianPathAndCycle(ArrayList< Edge>[] graph, int osrc, int src, HashSet< Integer> visited, String psf) {
+    if (visited.size() == graph.length - 1) {
+      System.out.print(psf);
+
+      boolean closingEdge = false;
+      for (Edge e : graph[osrc]) {
+        if (e.nbr == src) {
+          closingEdge = true;
+          break;
+        }
+      }
+
+      if (closingEdge) {
+        System.out.println("*");
+      } else {
+        System.out.println(".");
+      }
+      return;
+    }
+
+    visited.add(src);
+    for (Edge e : graph[src]) {
+      if (!visited.contains(e.nbr)) {
+        hamiltonianPathAndCycle(graph, osrc, e.nbr, visited, psf + e.nbr);
+      }
+    }
+    visited.remove(src);
+  }
+}
+    }
+    public static void Compilation(){
+        //Order of Compilation
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+
+    Edge(int src, int nbr) {
+      this.src = src;
+      this.nbr = nbr;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      graph[v1].add(new Edge(v1, v2));
+    }
+
+    boolean[] visited = new boolean[vtces];
+    Stack< Integer> st = new Stack<>();
+    for (int v = 0; v < vtces; v++) {
+      if (visited[v] == false) {
+        topological(graph, v, visited, st);
+      }
+    }
+
+    while (st.size() > 0) {
+      System.out.println(st.pop());
+    }
+  }
+
+  public static void topological(ArrayList< Edge>[] graph,
+                                 int src, boolean[] visited, Stack< Integer> st) {
+    visited[src] = true;
+    for (Edge e : graph[src]) {
+      if (!visited[e.nbr]) {
+        topological(graph, e.nbr, visited, st);
+      }
+    }
+    st.push(src);
+  }
+}
+    }
+    public static void dft(){
+        //Iterative Depth First Traversal
+  
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+
+    Edge(int src, int nbr) {
+      this.src = src;
+      this.nbr = nbr;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      graph[v1].add(new Edge(v1, v2));
+      graph[v2].add(new Edge(v2, v1));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+
+    Stack< Pair> stack = new Stack<>();
+    stack.push(new Pair(src, src + ""));
+    boolean[] visited = new boolean[vtces];
+    while (stack.size() > 0) {
+      Pair rem = stack.pop();
+
+      if (visited[rem.v] == true) {
+        continue;
+      }
+      visited[rem.v] = true;
+      System.out.println(rem.v + "@" + rem.psf);
+
+      for (Edge e : graph[rem.v]) {
+        if (visited[e.nbr] == false) {
+          stack.push(new Pair(e.nbr, rem.psf + e.nbr));
+        }
+      }
+    }
+  }
+
+  static class Pair {
+    int v;
+    String psf;
+
+    Pair(int v, String psf) {
+      this.v = v;
+      this.psf = psf;
+    }
+  }
+}
+    }
+    public static void Knights_Tour(){
+        //Knights Tour
+    
+
+public class Main {
+
+  public static void main(String[] args) throws Exception {
+
+  }
+
+  public static void printKnightsTour(int[][] chess, int r, int c, int move) {
+
+    //Code based on High Level Thinking
+
+    chess[r][c] = move; //Fill the chess[r][c] will the move number
+
+    //Apply recursive calls on the basis of faith
+    printKnightsTour(chess, r - 2, c + 1, move + 1);
+    printKnightsTour(chess, r - 1, c + 2, move + 1);
+    printKnightsTour(chess, r + 1, c + 2, move + 1);
+    printKnightsTour(chess, r + 2, c + 1, move + 1);
+    printKnightsTour(chess, r + 2, c - 1, move + 1);
+    printKnightsTour(chess, r + 1, c - 2, move + 1);
+    printKnightsTour(chess, r - 1, c - 2, move + 1);
+    printKnightsTour(chess, r - 2, c - 1, move + 1);
+
+    //Follow the Backtracking principle
+    chess[r][c] = 0;
+  }
+
+  public static void displayBoard(int[][] chess) {
+    for (int i = 0; i < chess.length; i++) {
+      for (int j = 0; j < chess[0].length; j++) {
+        System.out.print(chess[i][j] + " ");
+      }
+      System.out.println();
+    }
+
+    System.out.println();
+  }
+}
+    }
+    public static void bft(){
+        //Breadth First Traversal
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+
+    Edge(int src, int nbr) {
+      this.src = src;
+      this.nbr = nbr;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      graph[v1].add(new Edge(v1, v2));
+      graph[v2].add(new Edge(v2, v1));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+
+    ArrayDeque< Pair> queue = new ArrayDeque< >();
+    queue.add(new Pair(src, src + ""));
+    boolean[] visited = new boolean[vtces];
+    while (queue.size() > 0) {
+      Pair rem = queue.remove();
+
+      if (visited[rem.v] == true) {
+        continue;
+      }
+      visited[rem.v] = true;
+      System.out.println(rem.v + "@" + rem.psf);
+
+      for (Edge e : graph[rem.v]) {
+        if (visited[e.nbr] == false) {
+          queue.add(new Pair(e.nbr, rem.psf + e.nbr));
+        }
+      }
+    }
+  }
+
+  static class Pair {
+    int v;
+    String psf;
+
+    Pair(int v, String psf) {
+      this.v = v;
+      this.psf = psf;
+    }
+  }
+}
+    }
+    public static void all_path(){
+        //Print All Path
+        
+        
+        public class Main {
+          static class Edge {
+            int src;
+            int nbr;
+            int wt;
+        
+            Edge(int src, int nbr, int wt) {
+              this.src = src;
+              this.nbr = nbr;
+              this.wt = wt;
+            }
+          }
+        
+          public static void main(String[] args) throws Exception {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+            int vtces = Integer.parseInt(br.readLine());
+            ArrayList< Edge>[] graph = new ArrayList[vtces];
+            for (int i = 0; i < vtces; i++) {
+              graph[i] = new ArrayList<>();
+            }
+        
+            int edges = Integer.parseInt(br.readLine());
+            for (int i = 0; i < edges; i++) {
+              String[] parts = br.readLine().split(" ");
+              int v1 = Integer.parseInt(parts[0]);
+              int v2 = Integer.parseInt(parts[1]);
+              int wt = Integer.parseInt(parts[2]);
+              graph[v1].add(new Edge(v1, v2, wt));
+              graph[v2].add(new Edge(v2, v1, wt));
+            }
+        
+            int src = Integer.parseInt(br.readLine());
+            int dest = Integer.parseInt(br.readLine());
+        
+            boolean[] visited = new boolean[vtces];
+            printAllPaths(graph, src, dest, visited, src + "");
+          }
+        
+          public static void printAllPaths(ArrayList< Edge>[] graph, int src, int dest, boolean[] visited, String psf) {
+            if (src == dest) {
+              System.out.println(psf);
+              return;
+            }
+        
+            visited[src] = true;
+            for (Edge e : graph[src]) {
+              if (!visited[e.nbr]) {
+                printAllPaths(graph, e.nbr, dest, visited, psf + e.nbr);
+              }
+            }
+            visited[src] = false;
+          }
+        
+        }
+    }
+    public static void hash_path(){
+        //Has Path
+        import java.io.*;
+
+import java.util.*;
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+    int dest = Integer.parseInt(br.readLine());
+
+    boolean[] visited = new boolean[vtces];
+    boolean flag = hasPath(graph, src, dest, visited);
+    System.out.println(flag);
+  }
+
+  public static boolean hasPath(ArrayList< Edge>[] graph, int src, int dest, boolean[] visited) {
+    if (src == dest)
+      return true;
+
+    visited[src] = true;
+    for (Edge e : graph[src]) {
+      if (!visited[e.nbr]) {
+        boolean nbrHasPath = hasPath(graph, e.nbr, dest, visited);
+        if (nbrHasPath)
+          return true;
+      }
+    }
+    return false;
+  }
+
+}
+    }
+    
+    public static void multisolver(){
+        //Multisolver
+  
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  static class Pair implements Comparable< Pair> {
+    int wsf;
+    String psf;
+
+    Pair(int wsf, String psf) {
+      this.wsf = wsf;
+      this.psf = psf;
+    }
+
+    public int compareTo(Pair o) {
+      return this.wsf - o.wsf;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList<>();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+    int dest = Integer.parseInt(br.readLine());
+
+    int criteria = Integer.parseInt(br.readLine());
+    int k = Integer.parseInt(br.readLine());
+
+    boolean[] visited = new boolean[vtces];
+    multisolver(graph, src, dest, visited, criteria, k, src + "", 0);
+
+    System.out.println("Smallest Path = " + spath + "@" + spathwt);
+    System.out.println("Largest Path = " + lpath + "@" + lpathwt);
+    System.out.println("Just Larger Path than " + criteria + " = " + cpath + "@" + cpathwt);
+    System.out.println("Just Smaller Path than " + criteria + " = " + fpath + "@" + fpathwt);
+    System.out.println(k + "th largest path = " + pq.peek().psf + "@" + pq.peek().wsf);
+  }
+
+
+
+  static String spath;  //spath=smallest path weight
+  static Integer spathwt = Integer.MAX_VALUE; //spathwt= smallest path weight
+  static String lpath;  //lpath= largest path
+  static Integer lpathwt = Integer.MIN_VALUE; //lpathwt=largest path weight
+  static String cpath;  //cpath=ceil path
+  static Integer cpathwt = Integer.MAX_VALUE; //cpathwt=ceil path weight
+  static String fpath; //fpath=floor path
+  static Integer fpathwt = Integer.MIN_VALUE; //fpathwt= floor path weight
+  static PriorityQueue< Pair> pq = new PriorityQueue<>();
+  public static void multisolver(ArrayList< Edge>[] graph, int src, int dest, boolean[] visited, int criteria, int k, String psf, int wsf) {
+
+    if (src == dest) {
+      if (wsf < spathwt) {
+        spathwt = wsf;
+        spath = psf;
+      }
+      if (wsf > lpathwt) {
+        lpathwt = wsf;
+        lpath = psf;
+      }
+      if (wsf > criteria && wsf < cpathwt) {
+        cpathwt = wsf;
+        cpath = psf;
+      }
+      if (wsf < criteria && wsf > fpathwt) {
+        fpathwt = wsf;
+        fpath = psf;
+      }
+      if (pq.size() < k) {
+        pq.add(new Pair(wsf, psf));
+      } else {
+        if (wsf > pq.peek().wsf) {
+          pq.remove();
+          pq.add(new Pair(wsf, psf));
+        }
+      }
+      return;
+    }
+
+    visited[src] = true;
+    for (Edge edge : graph[src]) {
+      if (visited[edge.nbr] == false) {
+        multisolver(graph, edge.nbr, dest, visited, criteria, k, psf + edge.nbr, wsf + edge.wt);
+      }
+    }
+    visited[src] = false;
+  }
+}
+    }
+    //end
+    public static void connected_comp(){
+        //Get Connected Components
+        import java.io.*;
+
+import java.util.*;
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    int src = Integer.parseInt(br.readLine());
+    int dest = Integer.parseInt(br.readLine());
+
+    boolean[] visited = new boolean[vtces];
+    printAllPaths(graph, src, dest, visited, src + "");
+  }
+
+  public static void printAllPaths(ArrayList< Edge>[] graph, int src, int dest, boolean[] visited, String psf) {
+    if (src == dest) {
+      System.out.println(psf);
+      return;
+    }
+
+    visited[src] = true;
+    for (Edge e : graph[src]) {
+      if (!visited[e.nbr]) {
+        printAllPaths(graph, e.nbr, dest, visited, psf + e.nbr);
+      }
+    }
+    visited[src] = false;
+  }
+
+} import java.io.*;
+import java.util.*;
+
+public class Main {
+  static class Edge {
+    int src;
+    int nbr;
+    int wt;
+
+    Edge(int src, int nbr, int wt) {
+      this.src = src;
+      this.nbr = nbr;
+      this.wt = wt;
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int vtces = Integer.parseInt(br.readLine());
+    ArrayList< Edge>[] graph = new ArrayList[vtces];
+    for (int i = 0; i < vtces; i++) {
+      graph[i] = new ArrayList< >();
+    }
+
+    int edges = Integer.parseInt(br.readLine());
+    for (int i = 0; i < edges; i++) {
+      String[] parts = br.readLine().split(" ");
+      int v1 = Integer.parseInt(parts[0]);
+      int v2 = Integer.parseInt(parts[1]);
+      int wt = Integer.parseInt(parts[2]);
+      graph[v1].add(new Edge(v1, v2, wt));
+      graph[v2].add(new Edge(v2, v1, wt));
+    }
+
+    ArrayList< ArrayList< Integer>> comps = new ArrayList< >();
+
+    // write your code here
+
+    boolean[] visited = new boolean[vtces];
+
+    for (int i = 0; i < vtces; i++) {
+
+      if (visited[i] == false) {
+
+        ArrayList< Integer> comp = new ArrayList< >();
+        dfs(graph, i, visited, comp);
+        comps.add(comp);
+      }
+    }
+
+    System.out.println(comps);
+  }
+
+  public static void dfs(ArrayList< Edge>[] graph, int src, boolean[] visited, ArrayList< Integer> comp) {
+
+    visited[src] = true;
+    comp.add(src);
+
+    for (Edge e : graph[src]) {
+
+      if (visited[e.nbr] == false) {
+
+        dfs(graph, e.nbr, visited, comp);
+      }
+    }
+  }
+}
+    }
+}
