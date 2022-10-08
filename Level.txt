@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class Level_1 {
+public class Level_1 {//change 
     public static void main(String[] args)  {
         int[] arr = { 19, 13, 12, 27, 4, 6, 1 };
         // isprime_approch_1(arr);
